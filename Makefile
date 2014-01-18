@@ -15,7 +15,7 @@ commit:
 
 push:
 	git status
-	git add index.html
+	git add index.html README.md
 	git add css
 	git add js
 	git add *.markdown
