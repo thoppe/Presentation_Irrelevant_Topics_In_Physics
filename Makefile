@@ -13,6 +13,9 @@ edit:
 commit:
 	@-make push
 
+check:
+	aspell -c -H $(target)
+
 push:
 	git status
 	git add index.html README.md Makefile

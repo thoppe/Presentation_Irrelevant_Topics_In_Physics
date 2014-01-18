@@ -36,21 +36,10 @@
 <p>
 <h2>Irrelevant Topics VIII</h2><h3>in Physics</h3></p>
 <br>
-<br>
 <hr>
 <br>
-<br>
 <p>
-PGSA Colloquium</p>
-<br>
-<p>
-<strong></strong>Travis Hoppe<strong></strong></p>
-<br>
-<p>
-NIH, NIDDK, LBG,</p>
-<br>
-<p>
-(former Drexel grad. student)</p>
+<strong><a href="http://thoppe.github.io/">Travis Hoppe</a></strong><br>NIH, NIDDK, LBG, Drexel</p>
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
@@ -61,7 +50,6 @@ NIH, NIDDK, LBG,</p>
 <section class="vertical-slide">
 <p>
 <h2>What is a function?</h2></p>
-<br>
 <br>
 <p>
 <h2><svg class="latexSVG" height="11.239000px" version="1.2" viewBox="0 0 41.354375 11.239" width="41.354375px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -254,11 +242,10 @@ NIH, NIDDK, LBG,</p>
    <use x="59.774125" xlink:href="#equation_MZVXJ_8" y="11.418125"/>
   </g>
  </g>
-</svg></h2><pause></p>
-<br>
+</svg></h2></p>
 <br>
 <p>
-<h2>A function takes <strong></strong>input<strong></strong> <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 11.458625 9.984375" width="11.458625px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h2>A function takes <strong>input</strong> <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 11.458625 9.984375" width="11.458625px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_NVEBD_1" overflow="visible">
@@ -283,7 +270,7 @@ NIH, NIDDK, LBG,</p>
    <use x="8.583625" xlink:href="#equation_NVEBD_2" y="7.484375"/>
   </g>
  </g>
-</svg> and produces <strong></strong>output<strong></strong> <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 17.86175 9.984375" width="17.861750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+</svg> and produces <strong>output</strong> <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 17.86175 9.984375" width="17.861750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_SPPKC_2" overflow="visible">
@@ -317,16 +304,14 @@ NIH, NIDDK, LBG,</p>
 </svg></h2></p>
 </section><section class="vertical-slide">
 <p>
-<h2>What is a program?</h2>print "Hello World"<br><pause></p>
+<h2>What is a program?</h2></p>
 <br>
-<br>
-<br>
+<pre><code>print "Hello World"</code></pre>
 <br>
 <p>
-<h2>A function takes <strong></strong>input<strong></strong> <strong>(code)</strong> and produces <strong></strong>output<strong></strong></h2>Hello World</p>
+<h2>A function takes <strong>input</strong> <em>(code)</em> and produces <strong>output</strong></h2></p>
 <br>
-<br>
-<br>
+<pre><code>Hello World</code></pre>
 <br>
 <p>
 <h2>A program <strong>is</strong> a function!</h2></p>
@@ -335,7 +320,6 @@ NIH, NIDDK, LBG,</p>
 <section class="vertical-slide">
 <p>
 <h2>Fixed points</h2></p>
-<br>
 <br>
 <p>
 Function points where the input is identical to the output<h3><svg class="latexSVG" height="11.239000px" version="1.2" viewBox="0 0 41.354375 11.239" width="41.354375px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -434,13 +418,11 @@ Function points where the input is identical to the output<h3><svg class="latexS
  </g>
 </svg></h3></p>
 <br>
+<p>
+<h3>Can a program have a fixed point?</h3></p>
 <br>
 <p>
-<h3>Can a program have a fixed point?</h3><pause></p>
-<br>
-<br>
-<p>
-<h3>Fixed point programs are <strong></strong>quines<strong></strong></h3></p>
+<h3>Fixed point programs are <strong>quines</strong></h3></p>
 </section><section class="vertical-slide">
 <p>
 It's not as simple as you think...</p>
@@ -449,10 +431,8 @@ It's not as simple as you think...</p>
 <pre><code>print 'Hello world'
 > Hello world</code></pre>
 <br>
-<br>
 <pre><code>print 'print \'Hello world\''
 > print 'Hello world'</code></pre>
-<br>
 <br>
 <pre><code>print 'print \'print \'Hello world\'\''
 > print 'print \'Hello world\''</code></pre>
@@ -479,7 +459,6 @@ No reading the code from the file</p>
 <p>
 <h2>Python quine</h2></p>
 <br>
-<br>
 <pre><code>def quine(source):
     quote = '"'*3
     print source + '(' + quote + source + quote + ')'
@@ -489,7 +468,6 @@ quine("""def quine(source):
     print source + '(' + quote + source + quote + ')'
 
 quine""")</code></pre>
-<br>
 <br>
 <pre><code>> def quine(source):
     quote = '"'*3
@@ -501,16 +479,11 @@ quine("""def quine(source):
 
 quine""")</code></pre>
 <br>
-<br>
 <p>
-Create a function, that when called,</p>
-<br>
-<p>
-outputs the input <strong></strong>and<strong></strong> the function scaffolding</p>
+Create a function, that when called, outputs the input <em>and</em><br>the function scaffolding</p>
 </section><section class="vertical-slide">
 <p>
 <h2>Python quine+</h2></p>
-<br>
 <br>
 <p>
 Once built, we can add any arbitrary code into the quine!</p>
@@ -532,11 +505,11 @@ quine""")</code></pre>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
 <p>
-<h2>Are quines always possible?</h2><pause></p>
+<h2>Are quines always possible?</h2></p>
 <br>
 <br>
 <p>
-<h1><strong></strong>YES<strong></strong></h1></p>
+<h1><strong>YES</strong></h1></p>
 <br>
 <br>
 <p>
@@ -547,23 +520,22 @@ A direct result of Kleen's recursion theorem, says among other things, that a qu
 <p>
 <h2>Quine variants</h2></p>
 <br>
-<br>
 <p>
 <h4>Error-quines, Iterative-quines & Multi-quines</h4></p>
 </section><section class="vertical-slide">
 <p>
-<h1><strong></strong>Error<strong></strong> - quines</h1></p>
+<h1><strong>Error</strong>-quines</h1></p>
 <br>
 <br>
 <p>
-Programs that fail, but the error message is valid code (which happens to be the original source!)</p>
+Programs that fail, but the error message is valid code<br>(which happens to be the original source!)</p>
 <br>
 <br>
 <p>
-<strong>Highly</strong> version and even system specific</p>
+<em>Highly</em> version and even system specific</p>
 </section><section class="vertical-slide">
 <p>
-<h1><strong></strong>Iter<strong></strong> - quines</h1></p>
+<h1><strong>Iter</strong>-quines</h1></p>
 <br>
 <br>
 <p>
@@ -584,11 +556,7 @@ Chain of quines: output is fed back in <svg class="latexSVG" height="4.515625px"
 <br>
 <br>
 <p>
-Not fixed points, but cycles:</p>
-<br>
-<br>
-<p>
-<h3><svg class="latexSVG" height="11.832750px" version="1.2" viewBox="0 0 109.11775 11.83275" width="109.117750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+Not fixed points, but cycles:<h3><svg class="latexSVG" height="11.832750px" version="1.2" viewBox="0 0 109.11775 11.83275" width="109.117750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_LPORY_6" overflow="visible">
@@ -678,12 +646,10 @@ Not fixed points, but cycles:</p>
 </svg></h3></p>
 </section><section class="vertical-slide">
 <p>
-<h1><strong></strong>Multi<strong></strong>- quines</h1></p>
-<br>
+<h1><strong>Multi</strong>-quines</h1></p>
 <br>
 <p>
 Chain of quines: output of one language is fed into another</p>
-<br>
 <br>
 <p>
 <h2><svg class="latexSVG" height="8.968750px" version="1.2" viewBox="0 0 112.855333 8.96875" width="112.855333px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -776,7 +742,6 @@ Chain of quines: output of one language is fed into another</p>
   </g>
  </g>
 </svg></h2></p>
-<br>
 <br>
 <p>
 <h2><svg class="latexSVG" height="9.078125px" version="1.2" viewBox="0 0 468.007482 9.078125" width="468.007482px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1009,13 +974,8 @@ Chain of quines: output of one language is fed into another</p>
  </g>
 </svg></h2></p>
 <br>
-<br>
 <p>
-Not fixed points, but cycles of different functions:</p>
-<br>
-<br>
-<p>
-<h3><svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 63.74075 9.984375" width="63.740750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+Not fixed points, but cycles of different functions:<h3><svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 63.74075 9.984375" width="63.740750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_XXPRU_4" overflow="visible">
@@ -1085,7 +1045,7 @@ Not fixed points, but cycles of different functions:</p>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
 <p>
-<h2><strong></strong>Nash<strong></strong> Equilibrium</h2></p>
+<h2><strong>Nash</strong> Equilibrium</h2></p>
 <br>
 <br>
 </section>
@@ -1096,12 +1056,10 @@ Not fixed points, but cycles of different functions:</p>
 <br>
 <br>
 <p>
-Usually implies minimization of a <strong></strong>global<strong></strong> utility</p>
-<br>
+Usually implies minimization of a <strong>global</strong> utility</p>
 <br>
 <p>
 May not be <strong>fair</strong></p>
-<br>
 <br>
 <p>
 May only be possible with outside help</p>
@@ -1109,10 +1067,7 @@ May only be possible with outside help</p>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
 <p>
-<h2>The <strong></strong>price<strong></strong> of anarchy</h2></p>
-<br>
-<br>
-<br>
+<h2>The price of anarchy</h2></p>
 <br>
 <p>
 <h1><svg class="latexSVG" height="23.557375px" version="1.2" viewBox="0 0 116.634625 23.557375" width="116.634625px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1260,10 +1215,7 @@ May only be possible with outside help</p>
 <br>
 <br>
 <p>
-The ratio of <strong></strong>utilitarian<strong></strong> to <strong></strong>egalitarian<strong></strong>,</p>
-<br>
-<p>
-or best global <strong></strong>average<strong></strong> to the most <strong></strong>fair<strong></strong></p>
+The ratio of <strong>utilitarian</strong> to <strong>egalitarian</strong>,<br>or best global <strong>average</strong> to the most <strong>fair</strong></p>
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
@@ -1274,10 +1226,10 @@ or best global <strong></strong>average<strong></strong> to the most <strong></s
 No shortcut</p>
 <img class="large_image" src="images/braessparadoxroadsexample.png">
 <p>
-With 4000 drivers and no shortcut average time is <strong></strong>65<strong></strong> minutes</p>
+With 4000 drivers and no shortcut average time is <strong>65</strong> minutes</p>
 <br>
 <p>
-Drivers spread out <strong></strong>evenly<strong></strong> on both routes</p>
+Drivers spread out <strong>evenly</strong> on both routes</p>
 <br>
 <p>
 This is a Nash equilibrium.</p>
@@ -1289,10 +1241,10 @@ This is a Nash equilibrium.</p>
 With shortcut</p>
 <img class="large_image" src="images/braessparadoxroadsexample.png">
 <p>
-With 4000 drivers and the shortcut average time is <strong></strong>80<strong></strong> minutes</p>
+With 4000 drivers and the shortcut average time is <strong>80</strong> minutes</p>
 <br>
 <p>
-Drivers <strong></strong>only<strong></strong> take route top/bottom</p>
+Drivers <strong>only</strong> take route top/bottom</p>
 <br>
 <p>
 This is a Nash equilibrium.</p>
@@ -1387,17 +1339,14 @@ This is a Nash equilibrium.</p>
    <use x="99.288375" xlink:href="#equation_SINTI_3" y="6.640625"/>
   </g>
  </g>
-</svg></h3></p>
-<br>
-<p>
-A divergent geometric series ... hopeless?<br><pause></p>
+</svg></h3>A divergent geometric series ... hopeless?</p>
 <br>
 <br>
 <p>
-<h2>Loosen the idea of a <strong></strong>sum<strong></strong></h2></p>
+<h2>Loosen the idea of a <strong>sum</strong></h2></p>
 </section><section class="vertical-slide">
 <p>
-<h2><strong></strong>Cesaro<strong></strong> sum</h2></p>
+<h2><strong>Cesaro</strong> sum</h2></p>
 <br>
 <p>
 Take the limit of the arithmetic means</p>
@@ -1470,9 +1419,8 @@ Take the limit of the arithmetic means</p>
  </g>
 </svg></h3></p>
 <br>
-<br>
 <p>
-<h3><svg class="latexSVG" height="20.433375px" version="1.2" viewBox="0 0 140.78275 20.433375" width="140.782750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h1><svg class="latexSVG" height="20.433375px" version="1.2" viewBox="0 0 140.78275 20.433375" width="140.782750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_PCMZK_15" overflow="visible">
@@ -1638,17 +1586,16 @@ Take the limit of the arithmetic means</p>
    <use x="90.841" xlink:href="#equation_PCMZK_11" y="10.889625"/>
   </g>
  </g>
-</svg></h3></p>
-<br>
+</svg></h1></p>
 <br>
 <p>
 Thus Grandi's series is "Cesaro" summable to 1/2</p>
 </section><section class="vertical-slide">
 <p>
-<h2><strong></strong>Abel<strong></strong> summation</h2></p>
+<h2><strong>Abel</strong> summation</h2></p>
 <br>
 <p>
-Take the series<h3><svg class="latexSVG" height="6.328125px" version="1.2" viewBox="0 0 67.009131 6.328125" width="67.009131px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+Take the series<h4><svg class="latexSVG" height="6.328125px" version="1.2" viewBox="0 0 67.009131 6.328125" width="67.009131px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_ZPUEU_4" overflow="visible">
@@ -1721,11 +1668,11 @@ Take the series<h3><svg class="latexSVG" height="6.328125px" version="1.2" viewB
    <use x="65.102881" xlink:href="#equation_ZPUEU_5" y="4.40625"/>
   </g>
  </g>
-</svg></h3></p>
+</svg></h4></p>
 <br>
 <br>
 <p>
-Consider the power series<h2><svg class="latexSVG" height="10.660875px" version="1.2" viewBox="0 0 93.030131 10.660875" width="93.030131px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+Consider the power series<h3><svg class="latexSVG" height="10.660875px" version="1.2" viewBox="0 0 93.030131 10.660875" width="93.030131px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_RSTBG_5" overflow="visible">
@@ -1814,8 +1761,7 @@ Consider the power series<h2><svg class="latexSVG" height="10.660875px" version=
    <use x="91.123881" xlink:href="#equation_RSTBG_4" y="8.739"/>
   </g>
  </g>
-</svg></h2><pause></p>
-<br>
+</svg></h3></p>
 <br>
 <p>
 If it converges in <svg class="latexSVG" height="7.046875px" version="1.2" viewBox="0 0 41.02325 7.046875" width="41.023250px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1879,9 +1825,8 @@ If it converges in <svg class="latexSVG" height="7.046875px" version="1.2" viewB
  </g>
 </svg></p>
 <br>
-<br>
 <p>
-<h3><svg class="latexSVG" height="27.306750px" version="1.2" viewBox="0 0 198.783094 27.30675" width="198.783094px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h1><svg class="latexSVG" height="27.306750px" version="1.2" viewBox="0 0 198.783094 27.30675" width="198.783094px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_VECUP_20" overflow="visible">
@@ -2072,12 +2017,15 @@ If it converges in <svg class="latexSVG" height="7.046875px" version="1.2" viewB
    <use x="193.80125" xlink:href="#equation_VECUP_19" y="13.041125"/>
   </g>
  </g>
-</svg></h3></p>
+</svg></h1></p>
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
 <p>
-<h2>Alternating series</h2><h2><svg class="latexSVG" height="7.578125px" version="1.2" viewBox="0 0 89.317875 7.578125" width="89.317875px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h2>Alternating series</h2></p>
+<br>
+<p>
+<h2><svg class="latexSVG" height="7.578125px" version="1.2" viewBox="0 0 89.317875 7.578125" width="89.317875px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_KWIWI_5" overflow="visible">
@@ -2146,32 +2094,17 @@ If it converges in <svg class="latexSVG" height="7.046875px" version="1.2" viewB
  </g>
 </svg></h2></p>
 <br>
-<br>
 <p>
 Partial sums visit every natural integer!</p>
 <br>
-<br>
 <p>
 Cauchy product of two Grandi series</p>
-<br>
 <br>
 <p>
 Not Cesaro summable, but an Abel summation gives 1/4</p>
 </section><section class="vertical-slide">
 <p>
-Can also be solved with</p>
-<br>
-<br>
-<p>
-<h2>Euler Transforms</h2></p>
-<br>
-<br>
-<p>
-<h2>Borel summations</h2></p>
-<br>
-<br>
-<p>
-(not covered today, but they give 1/4!)</p>
+Can also be solved with<h2>Euler Transforms</h2>or<h2>Borel summations</h2>(not covered today, but they give 1/4!)</p>
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
@@ -2244,17 +2177,13 @@ Can also be solved with</p>
    <use x="82.130375" xlink:href="#equation_XIPVQ_3" y="6.75"/>
   </g>
  </g>
-</svg></h2><pause></p>
-<br>
+</svg></h2></p>
 <br>
 <p>
-<h1><strong></strong>-1/12<strong></strong></h1></p>
+<h1><strong>-1/12</strong></h1></p>
 </section><section class="vertical-slide">
 <p>
-<h3>Zeta function</h3></p>
-<br>
-<p>
-<h2><svg class="latexSVG" height="13.953125px" version="1.2" viewBox="0 0 72.679125 13.953125" width="72.679125px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h3>Zeta function</h3><h2><svg class="latexSVG" height="13.953125px" version="1.2" viewBox="0 0 72.679125 13.953125" width="72.679125px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_ZXSKG_7" overflow="visible">
@@ -2329,7 +2258,6 @@ Can also be solved with</p>
  </g>
 </svg></h2></p>
 <br>
-<br>
 <p>
 For <svg class="latexSVG" height="8.197125px" version="1.2" viewBox="0 0 27.740138 8.197125" width="27.740138px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
@@ -2362,13 +2290,11 @@ For <svg class="latexSVG" height="8.197125px" version="1.2" viewBox="0 0 27.7401
    <use x="23.568263" xlink:href="#equation_HEPLG_3" y="6.640625"/>
   </g>
  </g>
-</svg> this is the Riemann zeta function (super important)<br><pause></p>
-<br>
+</svg> this is the Riemann zeta function (super important)</p>
 <br>
 <br>
 <p>
 <h3>Zeta function regularization</h3></p>
-<br>
 <br>
 <p>
 Let <svg class="latexSVG" height="5.962750px" version="1.2" viewBox="0 0 9.437875 5.96275" width="9.437875px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -2390,10 +2316,7 @@ Let <svg class="latexSVG" height="5.962750px" version="1.2" viewBox="0 0 9.43787
    <use x="4.85975" xlink:href="#equation_TWHVY_0" y="5.90025"/>
   </g>
  </g>
-</svg> be our series and (let's pretend)</p>
-<br>
-<p>
-that everything will be OK at <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 24.119175 9.984375" width="24.119175px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+</svg> be our series and (let's pretend)<br>that everything will be OK at <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 24.119175 9.984375" width="24.119175px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_OCWNA_3" overflow="visible">
@@ -2431,7 +2354,7 @@ that everything will be OK at <svg class="latexSVG" height="9.984375px" version=
 </svg></p>
 </section><section class="vertical-slide">
 <p>
-<h3><strong></strong>...let's pretend that everything<strong></strong></h3><h3><strong></strong>will be OK at<strong></strong><svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 24.119175 9.984375" width="24.119175px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<em>...let's pretend that everything</em><br><em>will be OK at</em> <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 24.119175 9.984375" width="24.119175px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_OCWNA_3" overflow="visible">
@@ -2466,9 +2389,7 @@ that everything will be OK at <svg class="latexSVG" height="9.984375px" version=
    <use x="21.244175" xlink:href="#equation_OCWNA_2" y="7.484375"/>
   </g>
  </g>
-</svg><strong></strong>?<strong></strong></h3><pause></p>
-<br>
-<br>
+</svg><em>?</em></p>
 <br>
 <p>
 <h3><svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 16.059875 9.984375" width="16.059875px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -2527,7 +2448,7 @@ that everything will be OK at <svg class="latexSVG" height="9.984375px" version=
    <use x="17.439888" xlink:href="#equation_SQPPO_1" y="6.640625"/>
   </g>
  </g>
-</svg> and only converges for <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 41.747625 9.984375" width="41.747625px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+</svg></h3><h3>and only converges for <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 41.747625 9.984375" width="41.747625px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_NLBGN_4" overflow="visible">
@@ -2578,9 +2499,8 @@ that everything will be OK at <svg class="latexSVG" height="9.984375px" version=
  </g>
 </svg></h3></p>
 <br>
-<br>
 <p>
-<h3>It <strong>can</strong> be analytically continued onto the complex plane</h3></p>
+<h3>It <em>can</em> be analytically continued</h3><h3>onto the complex plane</h3></p>
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
@@ -2764,8 +2684,7 @@ is <strong>not</strong> Abel summable, but it <strong>can</strong> be zeta regul
    <use x="123.0478" xlink:href="#equation_SGZWN_5" y="9.464"/>
   </g>
  </g>
-</svg></h2><pause></p>
-<br>
+</svg></h2></p>
 <br>
 <p>
 It is a shadow of the original function, but it is finite...</p>
@@ -2773,14 +2692,14 @@ It is a shadow of the original function, but it is finite...</p>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
 <p>
-<h2><strong></strong>Casmir<strong></strong> Effect</h2></p>
-<br>
+<h2><strong>Casmir</strong> Effect</h2></p>
 <br>
 <p>
 Consider the expectation value of the zero-point energy<br>for all standing waves of an E&M field in a cavity</p>
 <br>
+<br>
 <p>
-<h2><svg class="latexSVG" height="24.900125px" version="1.2" viewBox="0 0 64.883375 24.900125" width="64.883375px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h1><svg class="latexSVG" height="24.900125px" version="1.2" viewBox="0 0 64.883375 24.900125" width="64.883375px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_ZTHUV_7" overflow="visible">
@@ -2847,14 +2766,14 @@ Consider the expectation value of the zero-point energy<br>for all standing wave
    <use x="29.06225" xlink:href="#equation_ZTHUV_1" y="10.889625"/>
   </g>
  </g>
-</svg></h2></p>
+</svg></h1></p>
 <br>
 <br>
 <p>
-This sum <strong>clearly</strong> diverges ...<br><pause><br>for mortals</p>
+This sum <strong>clearly</strong> diverges ...<br>for mortals</p>
 </section><section class="vertical-slide">
 <p>
-<h2><strong></strong>Casmir<strong></strong> Effect in detail</h2>Two metal plates of area <svg class="latexSVG" height="7.140625px" version="1.2" viewBox="0 0 6.84375 7.140625" width="6.843750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h2><strong>Casmir</strong> Effect in detail</h2>Two metal plates of area <svg class="latexSVG" height="7.140625px" version="1.2" viewBox="0 0 6.84375 7.140625" width="6.843750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_FOMTJ_0" overflow="visible">
@@ -2884,7 +2803,7 @@ This sum <strong>clearly</strong> diverges ...<br><pause><br>for mortals</p>
 <br>
 <br>
 <p>
-<h2><svg class="latexSVG" height="27.228625px" version="1.2" viewBox="0 0 111.23153125 27.228625" width="111.231531px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h1><svg class="latexSVG" height="27.228625px" version="1.2" viewBox="0 0 111.23153125 27.228625" width="111.231531px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_ZGCLM_23" overflow="visible">
@@ -3042,7 +2961,10 @@ This sum <strong>clearly</strong> diverges ...<br><pause><br>for mortals</p>
    <use x="50.37540625" xlink:href="#equation_ZGCLM_11" y="13.041125"/>
   </g>
  </g>
-</svg></h2><h2><svg class="latexSVG" height="17.953125px" version="1.2" viewBox="0 0 118.070656 17.953125" width="118.070656px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+</svg></h1></p>
+<br>
+<p>
+<h2><svg class="latexSVG" height="17.953125px" version="1.2" viewBox="0 0 118.070656 17.953125" width="118.070656px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_GDBBA_14" overflow="visible">
@@ -3162,11 +3084,7 @@ This sum <strong>clearly</strong> diverges ...<br><pause><br>for mortals</p>
 </svg></h2></p>
 </section><section class="vertical-slide">
 <p>
-<h2><strong></strong>Casmir<strong></strong> Effect in detail</h2></p>
-<br>
-<br>
-<p>
-Zeta normalized, take limit <svg class="latexSVG" height="6.859375px" version="1.2" viewBox="0 0 24.2295 6.859375" width="24.229500px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h2><strong>Casmir</strong> Effect in detail</h2>Zeta normalized, take limit <svg class="latexSVG" height="6.859375px" version="1.2" viewBox="0 0 24.2295 6.859375" width="24.229500px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_JBVDQ_2" overflow="visible">
@@ -3195,7 +3113,7 @@ Zeta normalized, take limit <svg class="latexSVG" height="6.859375px" version="1
 <br>
 <br>
 <p>
-<h2><svg class="latexSVG" height="27.228625px" version="1.2" viewBox="0 0 138.745875 27.228625" width="138.745875px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h1><svg class="latexSVG" height="27.228625px" version="1.2" viewBox="0 0 138.745875 27.228625" width="138.745875px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_SYTVN_25" overflow="visible">
@@ -3380,11 +3298,10 @@ Zeta normalized, take limit <svg class="latexSVG" height="6.859375px" version="1
    <use x="50.377625" xlink:href="#equation_SYTVN_15" y="13.041125"/>
   </g>
  </g>
-</svg></h2></p>
-<br>
+</svg></h1></p>
 <br>
 <p>
-<h2><svg class="latexSVG" height="22.032750px" version="1.2" viewBox="0 0 137.7617185 22.03275" width="137.761719px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<h1><svg class="latexSVG" height="22.032750px" version="1.2" viewBox="0 0 137.7617185 22.03275" width="137.761719px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <g>
    <symbol id="equation_FZWHQ_22" overflow="visible">
@@ -3560,7 +3477,7 @@ Zeta normalized, take limit <svg class="latexSVG" height="6.859375px" version="1
    <use x="100.9058125" xlink:href="#equation_FZWHQ_9" y="12.49"/>
   </g>
  </g>
-</svg></h2></p>
+</svg></h1></p>
 <br>
 <br>
 <p>
@@ -3589,17 +3506,12 @@ The force scales as <svg class="latexSVG" height="8.926500px" version="1.2" view
    <use x="11.08675" xlink:href="#equation_ZIHVG_1" y="4.703125"/>
   </g>
  </g>
-</svg></p>
-<br>
-<br>
-<p>
-This is real and can be measured!</p>
+</svg><br>This is real and can be measured!</p>
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
 <p>
 <h2>One more to wrap it up</h2></p>
-<br>
 <br>
 <p>
 <h2><svg class="latexSVG" height="7.578125px" version="1.2" viewBox="0 0 78.499391 7.578125" width="78.499391px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -3774,10 +3686,8 @@ This is real and can be measured!</p>
  </g>
 </svg></h2></p>
 <br>
-<br>
 <p>
-This has a radius of convergence of 1/2 hence it is not convergent at 1. However there is a <strong></strong>unique<strong></strong> analytic continuation onto the complex plane with 1/2 deleted.</p>
-<br>
+This has a radius of convergence of 1/2 hence it is not convergent at 1. However there is a <strong>unique</strong> analytic continuation onto the complex plane with 1/2 deleted.</p>
 <br>
 <p>
 <h2><svg class="latexSVG" height="7.578125px" version="1.2" viewBox="0 0 104.56725 7.578125" width="104.567250px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
