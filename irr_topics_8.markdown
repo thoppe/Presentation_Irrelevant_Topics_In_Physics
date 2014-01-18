@@ -1,7 +1,4 @@
-<link rel="stylesheet" href="js/reveal.js/css/theme/beige.css" id="theme">
-<link rel="stylesheet" href="js/reveal.js/css/theme/night.css" id="theme">
-
-
+{"theme":"night.css"}
 ## Irrelevant Topics VIII
 ### in Physics
 
@@ -240,7 +237,7 @@ or best global **average** to the most **fair**
 ## Braess' Paradox
 
 No shortcut
-!(braessparadoxroadsexample.png)
+!(images/braessparadoxroadsexample.png)
 With 4000 drivers and no shortcut average time is **65** minutes
 
 Drivers spread out **evenly** on both routes
@@ -250,7 +247,7 @@ This is a Nash equilibrium.
 ## Braess' Paradox
 
 With shortcut
-!(braessparadoxroadsexample.png)
+!(images/braessparadoxroadsexample.png)
 With 4000 drivers and the shortcut average time is **80** minutes
 
 Drivers **only** take route top/bottom
@@ -261,12 +258,12 @@ This is a Nash equilibrium.
 ## Example: Basketball
 ### Another reason to hate Kobe?
 
-!(drive_and_kick1.png)
+!(images/drive_and_kick1.png)
 
 ====
 ## Example: Power Grids
 
-!(POA_power_grid.png)
+!(images/POA_power_grid.png)
 
 ====
 # Zeta Function Regularization

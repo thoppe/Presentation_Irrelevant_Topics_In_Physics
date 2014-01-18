@@ -3,7 +3,7 @@ author = "Travis Hoppe"
 target = "irr_topics_8.markdown"
 
 # May need to run twice on first pull to copy styles
-args = --html_title $(title) --html_author $(author) --prettify
+args = --html_title $(title) --html_author $(author) 
 all:
 	python easy_pres.py $(target) --output index.html $(args)
 
@@ -15,7 +15,7 @@ commit:
 
 push:
 	git status
-	git add index.html README.md
+	git add index.html README.md Makefile
 	git add css
 	git add js
 	git add *.markdown
