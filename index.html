@@ -13,6 +13,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" 
 	  content="black-translucent" />
 
+    <meta name="viewport" content="width=device-width, 
+				   initial-scale=1.0, 
+				   maximum-scale=1.0, 
+				   user-scalable=no">
+
     <link rel="stylesheet" href="js/reveal.js/css/reveal.css">
     <link rel="stylesheet" href="js/reveal.js/css/theme/default.css" id="theme">
 
@@ -1224,7 +1229,7 @@ The ratio of <strong>utilitarian</strong> to <strong>egalitarian</strong>,<br>or
 <br>
 <p>
 No shortcut</p>
-<img class="large_image" src="images/braessparadoxroadsexample.png">
+<img class="" src="images/braessparadoxroadsexample.png" >
 <p>
 With 4000 drivers and no shortcut average time is <strong>65</strong> minutes</p>
 <br>
@@ -1239,7 +1244,7 @@ This is a Nash equilibrium.</p>
 <br>
 <p>
 With shortcut</p>
-<img class="large_image" src="images/braessparadoxroadsexample.png">
+<img class="" src="images/braessparadoxroadsexample.png" >
 <p>
 With 4000 drivers and the shortcut average time is <strong>80</strong> minutes</p>
 <br>
@@ -1254,14 +1259,14 @@ This is a Nash equilibrium.</p>
 <p>
 <h2>Example: Basketball</h2><h3>Another reason to hate Kobe?</h3></p>
 <br>
-<img class="large_image" src="images/drive_and_kick1.png">
+<img class="" src="images/drive_and_kick1.png" >
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
 <p>
 <h2>Example: Power Grids</h2></p>
 <br>
-<img class="large_image" src="images/POA_power_grid.png">
+<img class="" src="images/POA_power_grid.png" >
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide">
@@ -3780,7 +3785,7 @@ This has a radius of convergence of 1/2 hence it is not convergent at 1. However
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-      autoSlide: 0, mouseWheel: true, center: true, overview: true, transition: "default", maxScale: 1.0, controls: true, height: 700, width: 960, rtl: false, rollingLinks: false, keyboard: true, progress: true, minScale: 0.2, margin: 0.1, loop: false, history: true, 
+      autoSlide: 0, mouseWheel: false, center: true, embedded: false, hideAddressBar: true, overview: true, autoSlideStoppable: true, transition: "default", controls: true, rollingLinks: false, backgroundtransition: "default", rtl: false, transitionSpeed: "default", viewDistance: 3, keyboard: true, touch: true, progress: true, fragments: true, previewLinks: false, loop: false, history: false, 
       
       theme: Reveal.getQueryHash().theme, 
       // available themes are in reveal.js/css/theme
@@ -3797,7 +3802,12 @@ This has a radius of convergence of 1/2 hence it is not convergent at 1. However
 
 { src: 'js/reveal.js/plugin/highlight/highlight.js', async: true, callback: 
   function() { hljs.initHighlightingOnLoad(); } },
- ]
+
+{ src: 'js/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: 
+  function() { return !!document.body.classList; } },
+
+{ src: 'js/reveal.js/plugin/notes/notes.js', async: true, condition: 
+  function() { return !!document.body.classList; } } ]
 
       });
     </script>
