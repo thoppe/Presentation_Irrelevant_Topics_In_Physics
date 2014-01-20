@@ -7,6 +7,18 @@
 *[Travis Hoppe](http://thoppe.github.io/)*
 NIH, NIDDK, LBG, Drexel
 
+====*
+## Topics:
+
+### Quines
+[Computer Science]
+
+### Price of Anarchy
+[Game Theory]
+
+### Zeta Function Regularization
+[Physics, Mathematics]
+
 ====
 # Quines
 ====
@@ -14,15 +26,17 @@ NIH, NIDDK, LBG, Drexel
 
 ## $f(x) = x^2$
 ## $g(x) = e^{-x^2}$
-## $h(s) = \sum_{n=0}^\infty n^{-s}$
+# $h(s) = \sum_{n=0}^\infty n^{-s}$
 
-## A function takes *input* $(x)$ and produces *output* $f(x)$
+### A function takes *input* $(x)$
+### and produces *output* $f(x)$
 ====*
 ## What is a program?
 
     print "Hello World"
 
-## A function takes *input* _(code)_ and produces *output*
+### A function takes *input* _(code)_ 
+### and produces *output*
 
     Hello World
 
@@ -41,7 +55,6 @@ Function points where the input is identical to the output
 
 It's not as simple as you think...
 
-
     print 'Hello world'
     > Hello world
 
@@ -50,8 +63,6 @@ It's not as simple as you think...
 
     print 'print \'print \'Hello world\'\''
     > print 'print \'Hello world\''
-
-
 ## ...
 
 ====
@@ -118,7 +129,8 @@ Once built, we can add any arbitrary code into the quine!
 # *YES*
 
 
-A direct result of Kleen's recursion theorem, says among other things, that a quine is possible in any language
+A direct result of Kleen's recursion theorem says that 
+a quine is possible in any language
 
 ====
 ## Quine variants
@@ -193,25 +205,25 @@ or best global *average* to the most *fair*
 
 No shortcut
 !(images/braessparadoxroadsexample.png)
+
+
 With 4000 drivers and no shortcut average time is *65* minutes
-
 Drivers spread out *evenly* on both routes
-
 This is a Nash equilibrium.
+
 ====*
 ## Braess' Paradox
 
 With shortcut
 !(images/braessparadoxroadsexample.png)
+
+
 With 4000 drivers and the shortcut average time is *80* minutes
-
 Drivers *only* take route top/bottom
-
 This is a Nash equilibrium.
 
 ====
 ## Example: Basketball
-### Another reason to hate Kobe?
 
 !(images/drive_and_kick1.png)
 
@@ -365,7 +377,7 @@ This is real and can be measured!
 ## One more to wrap it up
 
 ## $1 + 2 + 4 + 8 + \ldots$
-## $1 + 2x + 4x^2 + 8x^3 + \ldots = \frac{1}{1-2x}$
+# $1 + 2x + 4x^2 + 8x^3 + \ldots = \frac{1}{1-2x}$
 
 This has a radius of convergence of 1/2 hence it is not convergent at 1. However there is a *unique* analytic continuation onto the complex plane with 1/2 deleted.
 
