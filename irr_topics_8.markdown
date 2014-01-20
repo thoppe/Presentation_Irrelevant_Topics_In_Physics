@@ -176,10 +176,10 @@ Not fixed points, but cycles of different functions:
 ====
 ## *Nash* Equilibrium
 
+!(images/P_dilema.png)
+Prisoners dilemma, Nash Equilibrium is (D,D)
 
-![Prisoners dilemma, Nash Equilibrium is (D,D)](P_dilema.png)
 
-<br>
 What is stable isn't always *best*
 ====
 ## What is optimal?
