@@ -1,6 +1,6 @@
 title  = "Irrelevant Topics In Physics"
 author = "Travis Hoppe"
-target = "irr_topics_8.markdown"
+target = "irr_topics_8.md"
 
 python_exec    = python
 easy_pres_exec = ~/hg-repos/personal/markdown_latex_easypres/easy_pres.py
@@ -24,7 +24,7 @@ push:
 	git add index.html README.md Makefile
 	git add css
 	git add js
-	git add *.markdown
+	git add *.md
 	git commit -a
 	git push
 
