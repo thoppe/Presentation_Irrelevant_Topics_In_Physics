@@ -26,9 +26,9 @@ check:
 
 push:
 	git status
-	git add index.html README.md Makefile
+	git add index.html Makefile
+	git add $(target)
 	git add css
-	git add js
 	git add *.md
 	git commit -a
 	git push
