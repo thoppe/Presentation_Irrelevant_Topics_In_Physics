@@ -10,16 +10,16 @@ NIH, NIDDK, LBG, Drexel
 ====*
 ## Topics:
 
-### Quines
-[Computer Science]
+### [Quines](#/Quines)
+_Computer Science_
 
-### Price of Anarchy
-[Game Theory]
+### [Price of Anarchy](#/PriceOfAnarchy)
+_Game Theory_
 
-### Zeta Function Regularization
-[Physics, Mathematics]
+### [Zeta Function Regularization](#/ZetaFunctionRegularization)
+_Physics, Mathematics_
 
-====
+==== [Quines]
 # Quines
 ====
 ## What is a function?
@@ -170,9 +170,8 @@ Chain of quines: output of one language is fed into another
 Not fixed points, but cycles of different functions:  
 ### $f(g(h(x))) = x$
 
-====
+==== [PriceOfAnarchy]
 # Price of Anarchy
-
 ====
 ## *Nash* Equilibrium
 
@@ -232,7 +231,7 @@ This is a Nash equilibrium.
 
 !(images/POA_power_grid.png)
 
-====
+==== [ZetaFunctionRegularization]
 # Zeta Function Regularization
 ====
 ## Grandi's series

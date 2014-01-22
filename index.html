@@ -36,7 +36,7 @@
 
     <div class="reveal"><div class="slides">
 	<section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <link rel="stylesheet" href="js/reveal.js/css/theme/night.css" id="theme">
 <p>
 <h2>Irrelevant Topics VIII</h2><h3>in Physics</h3></p>
@@ -45,26 +45,26 @@
 <br>
 <p>
 <strong><a href="http://thoppe.github.io/">Travis Hoppe</a></strong><br>NIH, NIDDK, LBG, Drexel</p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h2>Topics:</h2></p>
 <br>
 <p>
-<h3>Quines</h3>[Computer Science]</p>
+<h3><a href="#/Quines">Quines</a></h3><em>Computer Science</em></p>
 <br>
 <p>
-<h3>Price of Anarchy</h3>[Game Theory]</p>
+<h3><a href="#/PriceOfAnarchy">Price of Anarchy</a></h3><em>Game Theory</em></p>
 <br>
 <p>
-<h3>Zeta Function Regularization</h3>[Physics, Mathematics]</p>
+<h3><a href="#/ZetaFunctionRegularization">Zeta Function Regularization</a></h3><em>Physics, Mathematics</em></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" id="Quines">
 <p>
 <h1>Quines</h1></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>What is a function?</h2></p>
 <br>
@@ -319,7 +319,7 @@
   </g>
  </g>
 </svg></h3></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h2>What is a program?</h2></p>
 <br>
@@ -334,7 +334,7 @@
 <h2>A program <strong>is</strong> a function!</h2></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Fixed points</h2></p>
 <br>
@@ -440,7 +440,7 @@ Function points where the input is identical to the output<h3><svg class="latexS
 <br>
 <p>
 <h3>Fixed point programs are <strong>quines</strong></h3></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 It's not as simple as you think...</p>
 <br>
@@ -456,7 +456,7 @@ It's not as simple as you think...</p>
 <h2>...</h2></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>No cheating!</h2></p>
 <br>
@@ -469,7 +469,7 @@ Some languages allow for the trivial case of empty code</p>
 No reading the code from the file</p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Python quine</h2></p>
 <pre><code class=python>def quine(source):
@@ -494,7 +494,7 @@ quine""")</code></pre>
 <br>
 <p>
 Create a function, that when called, outputs the input <em>and</em><br>the function scaffolding</p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h2>Python quine+</h2></p>
 <br>
@@ -516,7 +516,7 @@ y = 2**4
 quine""")</code></pre>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Are quines always possible?</h2><div class="fragment"><h1><strong>YES</strong></h1></p>
 <br>
@@ -525,13 +525,13 @@ quine""")</code></pre>
 A direct result of Kleen's recursion theorem says that<br>a quine is possible in any language<br></div></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Quine variants</h2></p>
 <br>
 <p>
 <h4>Error-quines, Iterative-quines & Multi-quines</h4></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h1><strong>Error</strong>-quines</h1></p>
 <br>
@@ -542,7 +542,7 @@ Programs that fail, but the error message is valid code<br>(which happens to be 
 <br>
 <p>
 <em>Highly</em> version and even system specific</p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h1><strong>Iter</strong>-quines</h1></p>
 <br>
@@ -653,7 +653,7 @@ Not fixed points, but cycles:<h3><svg class="latexSVG" height="11.831750px" vers
   </g>
  </g>
 </svg></h3></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h1><strong>Multi</strong>-quines</h1></p>
 <br>
@@ -1047,25 +1047,23 @@ Not fixed points, but cycles of different functions:<h3><svg class="latexSVG" he
 </svg></h3></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" id="PriceOfAnarchy">
 <p>
 <h1>Price of Anarchy</h1></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2><strong>Nash</strong> Equilibrium</h2></p>
 <br>
 <img class="" src="images/P_dilema.png" >
-<p>
-Prisoners dilemma, Nash Equilibrium is (D,D)</p>
 <br>
 <br>
 <p>
 What is stable isn't always <strong>best</strong></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>What is optimal?</h2></p>
 <br>
@@ -1080,7 +1078,7 @@ May not be <strong>fair</strong></p>
 May only be possible with outside help</p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>The price of anarchy</h2></p>
 <br>
@@ -1233,50 +1231,46 @@ May only be possible with outside help</p>
 The ratio of <strong>utilitarian</strong> to <strong>egalitarian</strong>,<br>or best global <strong>average</strong> to the most <strong>fair</strong></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Braess' Paradox</h2></p>
 <br>
 <p>
 No shortcut</p>
 <img class="" src="images/braessparadoxroadsexample.png" >
-<br>
-<br>
 <p>
-With 4000 drivers and no shortcut average time is <strong>65</strong> minutes<br>Drivers spread out <strong>evenly</strong> on both routes<br>This is a Nash equilibrium.</p>
-</section><section class="vertical-slide">
+Drivers spread out <strong>evenly</strong> on both routes<br>This is a Nash equilibrium.</p>
+</section><section class="vertical-slide" >
 <p>
 <h2>Braess' Paradox</h2></p>
 <br>
 <p>
 With shortcut</p>
 <img class="" src="images/braessparadoxroadsexample.png" >
-<br>
-<br>
 <p>
-With 4000 drivers and the shortcut average time is <strong>80</strong> minutes<br>Drivers <strong>only</strong> take route top/bottom<br>This is a Nash equilibrium.</p>
+Drivers <strong>only</strong> take route top/bottom<br>This is a Nash equilibrium.</p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Example: Basketball</h2></p>
 <br>
 <img class="" src="images/drive_and_kick1.png" >
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Example: Power Grids</h2></p>
 <br>
 <img class="" src="images/POA_power_grid.png" >
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" id="ZetaFunctionRegularization">
 <p>
 <h1>Zeta Function Regularization</h1></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Grandi's series</h2></p>
 <br>
@@ -1351,7 +1345,7 @@ With 4000 drivers and the shortcut average time is <strong>80</strong> minutes<b
 <br>
 <p>
 <h2>Loosen the idea of a <strong>sum</strong></h2></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h2><strong>Cesaro</strong> sum</h2></p>
 <br>
@@ -1597,7 +1591,7 @@ Take the limit of the arithmetic means</p>
 <br>
 <p>
 Thus Grandi's series is "Cesaro" summable to 1/2</p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h2><strong>Abel</strong> summation</h2></p>
 <br>
@@ -2027,7 +2021,7 @@ If it converges in <svg class="latexSVG" height="7.046875px" version="1.2" viewB
 </svg></h1></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>Alternating series</h2></p>
 <br>
@@ -2109,12 +2103,12 @@ Cauchy product of two Grandi series</p>
 <br>
 <p>
 Not Cesaro summable, but an Abel summation gives 1/4</p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 Can also be solved with<h2>Euler Transforms</h2>or<h2>Borel summations</h2>(not covered today, but they give 1/4!)</p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h1>Main event</h1></p>
 <br>
@@ -2188,7 +2182,7 @@ Can also be solved with<h2>Euler Transforms</h2>or<h2>Borel summations</h2>(not 
 <br>
 <p>
 <h1><strong>-1/12</strong></h1></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h3>Zeta function</h3><h2><svg class="latexSVG" height="13.953125px" version="1.2" viewBox="0 0 72.679125 13.953125" width="72.679125px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
@@ -2359,7 +2353,7 @@ Let <svg class="latexSVG" height="5.962750px" version="1.2" viewBox="0 0 9.43787
   </g>
  </g>
 </svg></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <em>...let's pretend that everything</em><br><em>will be OK at</em> <svg class="latexSVG" height="9.984375px" version="1.2" viewBox="0 0 24.119175 9.984375" width="24.119175px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
@@ -2510,7 +2504,7 @@ Let <svg class="latexSVG" height="5.962750px" version="1.2" viewBox="0 0 9.43787
 <h3>It <em>can</em> be analytically continued</h3><h3>onto the complex plane</h3></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2><svg class="latexSVG" height="7.578125px" version="1.2" viewBox="0 0 89.317875 7.578125" width="89.317875px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
@@ -2697,7 +2691,7 @@ is <strong>not</strong> Abel summable, but it <strong>can</strong> be zeta regul
 It is a shadow of the original function, but it is finite...</p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2><strong>Casmir</strong> Effect</h2></p>
 <br>
@@ -2778,7 +2772,7 @@ Consider the expectation value of the zero-point energy<br>for all standing wave
 <br>
 <p>
 This sum <strong>clearly</strong> diverges ...<br>for mortals</p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h2><strong>Casmir</strong> Effect in detail</h2>Two metal plates of area <svg class="latexSVG" height="7.140625px" version="1.2" viewBox="0 0 6.84375 7.140625" width="6.843750px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
@@ -3089,7 +3083,7 @@ This sum <strong>clearly</strong> diverges ...<br>for mortals</p>
   </g>
  </g>
 </svg></h2></p>
-</section><section class="vertical-slide">
+</section><section class="vertical-slide" >
 <p>
 <h2><strong>Casmir</strong> Effect in detail</h2>Zeta normalized, take limit <svg class="latexSVG" height="6.859375px" version="1.2" viewBox="0 0 24.2295 6.859375" width="24.229500px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
@@ -3516,7 +3510,7 @@ The force scales as <svg class="latexSVG" height="8.925500px" version="1.2" view
 </svg><br>This is real and can be measured!</p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h2>One more to wrap it up</h2></p>
 <br>
@@ -3773,7 +3767,7 @@ This has a radius of convergence of 1/2 hence it is not convergent at 1. However
 </svg></h2></p>
 </section>
 </section><section class="vertical-stack">
-<section class="vertical-slide">
+<section class="vertical-slide" >
 <p>
 <h1>Thank you</h1></p>
 </section>
