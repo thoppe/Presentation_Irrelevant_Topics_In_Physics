@@ -10,6 +10,11 @@ args = --html_title $(title) --html_author $(author)
 all:
 	$(python_exec) $(easy_pres_exec) $(target) --output index.html $(args)
 
+build_reveal_js:
+	git submodule add https://github.com/hakimel/reveal.js.git reveal.js
+	git submodule init 
+	git submodule update
+
 edit:
 	emacs $(target) &
 
