@@ -77,7 +77,6 @@ No reading the code from the file
 
 ====
 ## Python quine
-
     def quine(source):
         quote = '"'*3
         print source + '(' + quote + source + quote + ')'
@@ -124,6 +123,7 @@ Once built, we can add any arbitrary code into the quine!
 ====
 
 ## Are quines always possible?
+====+
 
 
 # *YES*
