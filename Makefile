@@ -5,7 +5,6 @@ target = "irr_topics_8.md"
 python_exec    = python
 md2reveal_exec = md2reveal/md2reveal.py
 
-# May need to run twice on first pull to copy styles
 args = --html_title $(title) --html_author $(author) 
 all:
 	$(python_exec) $(md2reveal_exec) $(target) --output index.html $(args)
