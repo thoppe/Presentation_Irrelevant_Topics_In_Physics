@@ -19,6 +19,11 @@ commit:
 check:
 	aspell -c -H $(target)
 
+view:
+	chromium-browser index.html
+clean:
+	rm -rvf index.html
+
 push:
 	git status
 	git add index.html Makefile
@@ -30,11 +35,6 @@ push:
 pull:
 	git pull
 	git submodule foreach git pull origin master
-
-view:
-	chromium-browser index.html
-clean:
-	rm -rvf index.html
 
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
 # Build dependencies
