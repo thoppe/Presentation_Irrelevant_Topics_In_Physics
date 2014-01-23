@@ -5,7 +5,7 @@
 ----------
 
 *[Travis Hoppe](http://thoppe.github.io/)*
-NIH, NIDDK, LBG, Drexel
+[(deck source)](https://github.com/thoppe/Irrelevant_Topics_In_Physics)
 
 ====*
 ## Topics:
@@ -384,4 +384,4 @@ This has a radius of convergence of 1/2 hence it is not convergent at 1. However
 
 ====
 
-#Thank you
+# Thanks, you.
