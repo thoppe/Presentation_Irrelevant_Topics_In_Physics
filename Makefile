@@ -3,13 +3,14 @@ author = "Travis Hoppe"
 target = "irr8"
 
 markdown_file = talks/$(target).md
+output_file   = $(target).html
 
 python_exec    = python
 md2reveal_exec = md2reveal/md2reveal.py
 
-args = --html_title $(title) --html_author $(author) 
+args = --html_title $(title) --html_author $(author) --output $(output_file)
 all:
-	$(python_exec) $(md2reveal_exec) $(markdown_file) --output index.html $(args)
+	$(python_exec) $(md2reveal_exec) $(markdown_file) $(args)
 
 edit:
 	emacs $(markdown_file) &
@@ -18,17 +19,17 @@ check:
 	aspell -c -H $(markdown_file)
 
 view:
-	chromium-browser index.html
+	chromium-browser $(output_file)
 
 commit:
 	@-make push
 
 clean:
-	rm -rvf index.html
+	rm -rvf *.html
 
 push:
 	git status
-	git add index.html Makefile README.md
+	git add *.html Makefile README.md
 	git add talks/*.md
 	git commit -a
 	git push
