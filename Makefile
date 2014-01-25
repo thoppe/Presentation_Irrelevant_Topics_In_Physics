@@ -1,33 +1,35 @@
 title  = "Irrelevant Topics In Physics"
 author = "Travis Hoppe"
-target = "irr_topics_8.md"
+target = "irr8"
+
+markdown_file = talks/$(target).md
 
 python_exec    = python
 md2reveal_exec = md2reveal/md2reveal.py
 
 args = --html_title $(title) --html_author $(author) 
 all:
-	$(python_exec) $(md2reveal_exec) $(target) --output index.html $(args)
+	$(python_exec) $(md2reveal_exec) $(markdown_file) --output index.html $(args)
 
 edit:
-	emacs $(target) &
+	emacs $(markdown_file) &
+
+check:
+	aspell -c -H $(markdown_file)
+
+view:
+	chromium-browser index.html
 
 commit:
 	@-make push
 
-check:
-	aspell -c -H $(target)
-
-view:
-	chromium-browser index.html
 clean:
 	rm -rvf index.html
 
 push:
 	git status
-	git add index.html Makefile
-	git add $(target)
-	git add *.md
+	git add index.html Makefile README.md
+	git add talks/*.md
 	git commit -a
 	git push
 

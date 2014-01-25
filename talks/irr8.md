@@ -175,7 +175,7 @@ Not fixed points, but cycles of different functions:
 ====
 ## *Nash* Equilibrium
 
-!(images/P_dilema.png)
+!(images/8/P_dilema.png)
 Prisoners dilemma, Nash Equilibrium is (D,D)
 
 
@@ -203,7 +203,7 @@ or best global *average* to the most *fair*
 ## Braess' Paradox
 
 No shortcut
-!(images/braessparadoxroadsexample.png)
+!(images/8/braessparadoxroadsexample.png)
 
 
 With 4000 drivers and no shortcut average time is *65* minutes
@@ -214,7 +214,7 @@ This is a Nash equilibrium.
 ## Braess' Paradox
 
 With shortcut
-!(images/braessparadoxroadsexample.png)
+!(images/8/braessparadoxroadsexample.png)
 
 
 With 4000 drivers and the shortcut average time is *80* minutes
@@ -224,12 +224,12 @@ This is a Nash equilibrium.
 ====
 ## Example: Basketball
 
-!(images/drive_and_kick1.png)
+!(images/8/drive_and_kick1.png)
 
 ====
 ## Example: Power Grids
 
-!(images/POA_power_grid.png)
+!(images/8/POA_power_grid.png)
 
 ==== [ZetaFunctionRegularization]
 # Zeta Function Regularization
