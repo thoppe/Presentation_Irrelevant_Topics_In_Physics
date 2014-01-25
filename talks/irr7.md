@@ -7,7 +7,18 @@
 *[Travis Hoppe](http://thoppe.github.io/)*
 [(deck source)](https://github.com/thoppe/Irrelevant_Topics_In_Physics)
 
-====
+====*
+## Topics:
+
+### [Benford's Law](#/BenfordsLaw)
+_Statistics_
+
+### [Negative Specific Heat](#/NegativeSpecificHeat)
+_Physics_
+
+### [Real Computability](#/RealComputability)
+_Mathematics, Physics_
+==== [BenfordsLaw]
 
 # Benford's Law
 ### one is not the loneliest number
@@ -91,7 +102,7 @@ Some numerical distributions follow Benford's law _exactly_, such as $n!$, $2^n$
 
 The 54 million real constants in Plouffe's [Inverse Symbolic Calculator](http://oldweb.cecm.sfu.ca/projects/ISC/ISCmain.html) database follow Benford's law.
 
-====
+==== [NegativeSpecificHeat]
 # Negative Specific Heat
 ### getting more by pushing less
 
@@ -181,10 +192,9 @@ The conductivity $\pfrac{J}{E}<0$ for sufficiently large $E$!
 + Brownian noise with a driven diffusion
 + Negative mobility and sorting of colloidal particles
 
-====
-# Reality of
-# the Reals
-### a waste of the real number line
+==== [RealComputability]
+# Real Computability
+### a waste of the number line
 ====
 ### Preliminaries
 We must understand two things first:
