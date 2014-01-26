@@ -33,16 +33,16 @@ Simon Newcomb (1881) noticed the wear on logarithmic tables was not uniform. Sug
 
 Benford's Law (in base 10)
 ## $P(d)=\log_{10}(d+1)-\log_{10}(d)=\log_{10} \left(1+\frac{1}{d}\right)$
-
 Benford's Law (in other bases)
 ## $P(d)=\log_{b}(d+1)-\log_{b}(d)=\log_{b} \left(1+\frac{1}{d}\right)$
-!(images/7/benford_scale.png)<<height:200px>>
+!(images/7/benford_scale.png)<<height:250px>><<width:400px>>
 
 ====
 ## Examples
 
 Benford's original paper took data from many disparate sources
- 
+
+<div class="footnote">
 + Rivers (335)
 + Population (3259)
 + Physical constants (104)
@@ -58,6 +58,7 @@ Benford's original paper took data from many disparate sources
 + Death Rates (418)
 + Street Addresses (342)
 + Black body radiation (1165)
+</div>
 
 ====
 ### Distribution of Distributions
@@ -71,19 +72,14 @@ It was rigorously demonstrated that the "distribution of distributions" given by
 ====
 ## Why might this be so?
 
-### Exponential growth
+#### Exponential growth
 Numbers are not uniformly distributed, but the logarithms are...
 !(images/7/Logarithmic_scale.png)
 
-====*
-## Why might this be so?
-
-### Scale Invariance
+#### Scale Invariance
 _If an underlying distribution exists_, then it must be scale invariant. The only continuous distribution that satisfies this is logarithmic.
-====*
-## Why might this be so?
 
-### Mixing of Distributions
+#### Mixing of Distributions
 While drawing from a single Gaussian would fail, multiple Gaussians from multiple sources would follow Benford's law.
 
 ====
@@ -96,11 +92,14 @@ Numbers that fail to span large orders of magnitude, or numbers that aren't "num
 ====
 ### Favorite Examples
 
-Benford's Law is now considered admissible evidence for fraudulent claims in forensic accounting.
+Benford's Law is now considered admissible evidence 
+for fraudulent claims in forensic accounting.
 
-Some numerical distributions follow Benford's law _exactly_, such as $n!$, $2^n$ and the Fibonacci numbers.
+Some numerical distributions follow Benford's law _exactly_, 
+such as $n!$, $2^n$ and the Fibonacci numbers.
 
-The 54 million real constants in Plouffe's [Inverse Symbolic Calculator](http://oldweb.cecm.sfu.ca/projects/ISC/ISCmain.html) database follow Benford's law.
+The 54 million real constants in Plouffe's 
+[Inverse Symbolic Calculator](http://oldweb.cecm.sfu.ca/projects/ISC/ISCmain.html) database follow Benford's law.
 
 ==== [NegativeSpecificHeat]
 # Negative Specific Heat
@@ -111,7 +110,7 @@ The 54 million real constants in Plouffe's [Inverse Symbolic Calculator](http://
 
 One expects that the average internal energy $U$, of a system in contact with a thermal bath should increase with $T$, the bath temperature.
 
-## $\pfrac{U}{T} > 0$
+# $\pfrac{U}{T} > 0$
 
 Why might this be so? Consider
 ##| $\mathcal{Z} = \sum e^{-\beta E_i}$
@@ -134,10 +133,10 @@ Isolated gravitational fields give $n=1$, $p_e = 0$ and $\mathcal{T} = 3/2 N k T
 
 ### Simple 3-level model
 
-### $E_a = {0, \epsilon_1, \epsilon_2}$
+### $E_a = \{0, \epsilon_1, \epsilon_2\}$
 ### $\epsilon_2 > \epsilon_1 > 0$
 
-Assign a simple (Boltzmann) transition rate, but couple the $0 \rightarrow 2$ and $1 \rightarrow 2$ to different thermal baths, say $\beta_1$ and $\beta_2$. For simplicity, disallow $0 \rightarrow 1$ 
+Assign a simple (Boltzmann) transition rate, but couple states $0 \rightarrow 2$ and $1 \rightarrow 2$ to different thermal baths, say $\beta_1$ and $\beta_2$. For simplicity, disallow $0 \rightarrow 1$.
 
 |## $R(0 \rightarrow 2) = e^{\beta_1 \epsilon_2}, R(2 \rightarrow 0) = 1$
 |## $R(1 \rightarrow 2) = e^{\beta_1 (\epsilon_2-\epsilon_1)}, R(2 \rightarrow 1) = 1$
@@ -146,11 +145,12 @@ Assign a simple (Boltzmann) transition rate, but couple the $0 \rightarrow 2$ an
 
 Using the Master equation, the average energy is 
 
-# $U = \frac{x\epsilon_1 + xy \epsilon_2}{x+y+xy}$
-## $x = e^{-\epsilon_1 \beta}$
-## $y = e^{-\epsilon_2 \beta}$
+## $U = (x\epsilon_1 + xy \epsilon_2)(x+y+xy)$
+### $x = e^{-\epsilon_1 \beta},\ y = e^{-\epsilon_2 \beta}$
 
-$C_x=\pfrac{U}{T_x}$ is always positive, but there is a range of values where $C_y=\pfrac{U}{T_y}$ is negative! 
+There is a range of values where
+
+# $C_x=\pfrac{U}{T_x} > 0, \ C_y=\pfrac{U}{T_y} < 0$
 
 ====
 
@@ -188,9 +188,12 @@ The conductivity $\pfrac{J}{E}<0$ for sufficiently large $E$!
 ====
 ## Real world examples
  
-+ Biological membranes, different heat coupling in the membrane and outside
-+ Brownian noise with a driven diffusion
-+ Negative mobility and sorting of colloidal particles
+Biological membranes, different heat 
+coupling in the membrane and outside
+
+Brownian noise with a driven diffusion
+
+Negative mobility and sorting of colloidal particles
 
 ==== [RealComputability]
 # Real Computability
