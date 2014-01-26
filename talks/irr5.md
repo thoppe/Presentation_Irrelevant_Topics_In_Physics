@@ -27,11 +27,11 @@ _Physics_
 
 Each branch of physics makes certain assumptions and simplifications. Break it down on what is "known"
 
-| Classical - Exact: $\mathcal{H}$
-| Quantum   - Exact in a probable sense: $\Psi$
-| Fluid Mechanics - Averaged: $\mathbf{u}$
-| Statistical Mechanics - Ensemble averaged: $\mathbf{Z}$
-| Random Matrix Theory - Ensemble only: $A_{ij} \in \mathbf{GUE}$
++ Classical - Exact: $\mathcal{H}$
++ Quantum   - Exact in a probable sense: $\Psi$
++ Fluid Mechanics - Averaged: $\mathbf{u}$
++ Statistical Mechanics - Ensemble averaged: $\mathbf{Z}$
++ Random Matrix Theory - Ensemble only: $A_{ij} \in \mathbf{GUE}$
 
 ====
 # How could this possibly be useful?
