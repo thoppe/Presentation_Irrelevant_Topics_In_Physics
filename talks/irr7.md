@@ -23,7 +23,7 @@ _Mathematics, Physics_
 # Benford's Law
 ### one is not the loneliest number
 
-====
+====*
 # History
 
 Simon Newcomb (1881) noticed the wear on logarithmic tables was not uniform. Suggested that the _a priori_ assumption of the most significant digit distribution was not uniform. Frank Benford (1938), physicist, tested the hypothesis over many datasets.
@@ -37,7 +37,7 @@ Benford's Law (in other bases)
 ## $P(d)=\log_{b}(d+1)-\log_{b}(d)=\log_{b} \left(1+\frac{1}{d}\right)$
 !(images/7/benford_scale.png)<<height:250px>><<width:400px>>
 
-====
+====*
 ## Examples
 
 Benford's original paper took data from many disparate sources
@@ -60,7 +60,7 @@ Benford's original paper took data from many disparate sources
 + Black body radiation (1165)
 </div>
 
-====
+====*
 ### Distribution of Distributions
 
 Benford's law applies not only to scale-invariant data, but also to numbers chosen from a variety of different sources. 
@@ -69,7 +69,7 @@ As the number of variables increases, the density function approaches that of th
 
 It was rigorously demonstrated that the "distribution of distributions" given by random samples taken from a variety of different distributions is, in fact, Benford's law.
 
-====
+====*
 ## Why might this be so?
 
 #### Exponential growth
@@ -117,7 +117,7 @@ Why might this be so? Consider
 ##| $\avg{E} = \sum E_i e^{-\beta E_i} / \mathcal{Z}$
 ##| $C_V = \frac{d \avg{E}}{d T} = -k\beta^2 \frac{d \avg{E}}{d \beta} = k\beta^2 \avg{(E_i - \avg{E})^2}$
 
-====
+====*
 
 ### Recourse to the Virial theorem
 
@@ -152,7 +152,7 @@ There is a range of values where
 
 # $C_x=\pfrac{U}{T_x} > 0, \ C_y=\pfrac{U}{T_y} < 0$
 
-====
+====*
 
 !(images/7/CV_curve2.png)<<height:300px>>
 
@@ -173,7 +173,7 @@ Suppose a particle moves stochastically but is driven (say by an electric field,
 
 !(images/7/Lane1.png)
 
-====
+====*
 ## Negative Conductivity
 
 In the uniform case, this gives a current density that is always positive
@@ -218,7 +218,7 @@ We must understand two things first:
 
 | A number is *computable* if you can write a _finite_ piece of code to compute any specified digit.
 
-====
+====*
 ## Computable Numbers
  
 ## $2, 13.7, 1/3, \pi, \exp(1), \cos(3)$
@@ -238,7 +238,7 @@ We get that $\abs{A}=\abs{B}=3$. How can we do that if we can't count them? We s
 
 ## $7 \rightarrow z, 2 \rightarrow y, 13 \rightarrow x$
 
-====
+====*
 ## Infinite sets
 
 Common fields
@@ -256,7 +256,7 @@ Think about $\mathbb{W}$ vs $\mathbb{N}$.
 
 Thus $\abs{\mathbb{W}}=\abs{\mathbb{N}}$.
 
-====
+====*
 ## Cantor and aleph-naught
 
 The smallest infinity is $\aleph_0$, but
@@ -294,7 +294,6 @@ This implies that (almost) _every number we use in physics_ amounts
 to an infinitesimal fraction of the real number line! 
 
 ====
-# Who cares?
 
 The question of physics and the real number line is intimately tied to the discreteness of Nature.
 
