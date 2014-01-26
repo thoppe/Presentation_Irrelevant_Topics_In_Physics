@@ -1,9 +1,28 @@
-\centerpicture{figures/title_3.pdf}
+{"theme":"night.css"}
+## Irrelevant Topics III
+### in Physics
 
-\section{Cardinality of Infinity}
-\subsection{Cantors Crazy Continuum Counting}
-\incompletesectionhead
-%\sectionhead
+----------
+
+*[Travis Hoppe](http://thoppe.github.io/)*
+[(deck source)](https://github.com/thoppe/Irrelevant_Topics_In_Physics)
+
+====*
+## Topics:
+
+### [Cardinality Of Infinity](#/CardinalityOfInfinity)
+_x_
+
+### [NegativeProbabilities](#/NegativeProbabilities)
+_x_
+
+### [Hobomorphism](#/Hobomorphism)
+_Graph Theory_
+
+==== [CardinalityOfInfinity]
+# Cardinality of Infinity
+### Cantors Crazy Continuum Counting
+====
 
 \begin{frame}# Absolute Examples
 
@@ -114,10 +133,10 @@ Does this have an impact on physics?
 
 \end{frame}
 
-\section{Negative Probabilities}
-\subsection{An homage to lateral thinking}
-\incompletesectionhead
-%\sectionhead
+==== [NegativeProbabilities]
+# Negative Probabilities
+### An homage to lateral thinking
+====
 
 
 \begin{frame}# Negative Probabilities
@@ -165,10 +184,11 @@ Possible that the direct states of the system are not observable, that is:
   
 \end{frame}
 
-\section{A Solution to Graph Isomorphism}
-\subsection{What train-hopping hobos can teach us}
-\incompletesectionhead
-%\sectionhead
+==== [Hobomorphism]
+# Hobomorphism
+### A Solution to Graph Isomorphism
+### What train-hopping hobos can teach us
+====
 
 
 \begin{frame}# Hobos on a Train
