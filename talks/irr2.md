@@ -1,8 +1,27 @@
-\centerpicture{figures/title_2.pdf}
+{"theme":"night.css"}
+## Irrelevant Topics II
+### in Physics
 
-\section{Extraordinarily Large Numbers}
-\subsection{They're just big boned}
-\sectionhead
+----------
+
+*[Travis Hoppe](http://thoppe.github.io/)*
+[(deck source)](https://github.com/thoppe/Irrelevant_Topics_In_Physics)
+
+====*
+## Topics:
+
+### [Extraordinarily Large Numbers](#/ExtraordinarilyLargeNumbers)
+_x_
+
+### [Venn-Diagrams](#/VennDiagrams)
+_x_
+
+==== [ExtraordinarilyLargeNumbers]
+
+# Extraordinarily Large Numbers
+### they're just big boned
+
+====
 
 \begin{frame}# Really really big numbers
 
@@ -116,11 +135,11 @@ $\begin{align}g_1 &= 3 \uparrow \uparrow \uparrow \uparrow 3 \\ g_n &= 3 \uparro
 This is an upper bound to the problem. It has been proven that the lower bound solution is at least 11. The authors (modestly) state that there is some room for improvement.
 \end{frame}
 
+==== [VennDiagrams]
+# Venn-diagrams
+# Inclusion-exclusion principle (extreme)
 
-\section{Venn-diagrams}
-\subsection{Inclusion-exclusion principle (extreme)}
-\sectionhead
-%\incompletesectionhead
+====
 
 \begin{frame}# You, at the conclusion of this talk
 
