@@ -10,18 +10,18 @@
 ====*
 ## Topics:
 
-### [](#/)
-_x_
+### [Random Matrix Theory](#/RandomMatrixTheory)
+_Physics, Mathematics_
 
-### [](#/)
-_x_
+### [Complex Temperatures](#/ComplexTemperatures)
+_Physics_
 
-### [](#/)
-_x_
+### [Stochastic Resonance](#/Stochastic Resonance)
+_Physics_
 
-====
+==== [RandomMatrixTheory]
 # Random Matrix Theory
-### An excellent way to waste an afternoon
+### when knowing the average is too much
 ====
 # What do you know, really?
 
@@ -93,7 +93,7 @@ $1-\left ( \frac{\sin \pi x}{\pi x}\right) ^2 $
 
 Freeman Dyson walks over and recognizes this as the _exact_ same result he got, for the Gaussian Unitary Ensemble!
 
-====
+==== [ComplexTemperatures]
 # Complex Temperatures
 ### Is it hot in here or am I imagining things?
 
@@ -143,7 +143,7 @@ Partition function zeros for one-dimensional Blume-Capel
 !(images/5/zeros_YL.png)
 !(images/5/zeros_F.png)
 
-====
+==== [StochasticResonance]
 # Stochastic Resonance
 ### when messy is good
 
