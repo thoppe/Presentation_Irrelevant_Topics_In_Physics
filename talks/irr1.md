@@ -1,11 +1,31 @@
-\centerpicture{figures/title_1.pdf}
+{"theme":"night.css"}
+## Irrelevant Topics I
+### in Physics
 
-\section{Dissipative Lagrangians}
-\subsection{Forbidden couplings in phase space}
-\sectionhead
+----------
 
+*[Travis Hoppe](http://thoppe.github.io/)*
+[(deck source)](https://github.com/thoppe/Irrelevant_Topics_In_Physics)
+
+====*
+## Topics:
+
+### [Dissipative Lagrangians](#/DissipativeLagrangians)
+_Physics_
+
+### [Supershapes](#/Supershapes)
+_Geometry_
+
+### [RandomWalksOnRegularLattices](#/RandomWalksOnRegularLattices)
+_x_
+
+==== [DissipativeLagrangians]
+
+# Dissipative Lagrangians
+### Forbidden couplings in phase space
 
 ====
+
 # Dissipative Lagrangians
 
 
@@ -61,24 +81,19 @@ $L = e^{ct/m} \paren{m \dot x^2/2 - kx^2 /2}$
 The exponential multiplier does not induce any extraneous solutions. Euler's equations of motion would produce the original differential equation.
 }
 
-\section{Supershapes}
-\subsection{Squircles - the solution to the age old problem}
-\sectionhead
+==== [Supershapes]
 
+# Supershapes
+# Squircles - the solution to the age old problem
 
 ====
 # Not so super
-
-
 
 Circles
 $x^2 + y^2 = r^2$
 
 Ellipses
 $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$
-
-}
-
 
 ====
 # Superellipses
@@ -102,7 +117,6 @@ The squircle: {\bf I can't even make this stuff up}
 # Superellipses
 
 
-
   \begin{figure}
     \centering
     \subfigure[]     {\includegraphics[width=3cm]{figures/talk1/image21.png}}
@@ -123,46 +137,24 @@ $
   \end{figure}
 }
 
-%
-\section {Random Walks on Regular Lattices}
-\subsection{or, the best place to get drunk}
-\incompletesectionhead
-%\sectionhead
 
-\begin{comment}
-
-
+==== [RandomWalksOnRegularLattices]
+# Random Walks on Regular Lattices
+### or, the best dimension to get drunk
 
 ====
 # One-Dimension
 
-
-}
-
-
 ====
 # Two-Dimensions
-
-
-}
-
 
 ====
 # Three-Dimensions
 
-
-}
-
-
 ====
 # Moral?
-
-
 
  Do not get drunk in 3D!
  If you lose your keys in space, \linebreak odds are you will never find them again \ldots
  Thankfully, Earth has a 2D periodic surface!
-
-}
-\end{comment}
 
