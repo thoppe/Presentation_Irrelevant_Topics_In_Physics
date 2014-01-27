@@ -300,6 +300,9 @@ or
 # *-1/12*
 
 
+
+
+|<div class="footnote">*for a suitable definition of equals</div>
 ====*
 
 ### Zeta function
