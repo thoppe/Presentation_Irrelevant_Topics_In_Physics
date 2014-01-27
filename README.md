@@ -9,12 +9,12 @@ Quines, Price of Anarchy, & Zeta Function Regularization
 ## [Talk 7](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr7.html)
 Benford's Law, Negative Specific Heat, & Real Computability
 
+## [Talk 6](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr6.html)
+Cayley-Dickson Process, Pseudospectra, & Markov Cutoff Phenomenon
+
 ============================
 
 **Placeholders for the others talks are below, they may not work or be in an incomplete state.**
-
-#### [Talk 6](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr6.html)
-Cayley-Dickson Process, Pseudospectra, & Markov Cutoff Phenomenon
 
 #### [Talk 5](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr5.html)
 Random Matrix Theory, Complex Temperatures, & Stochastic Resonance
