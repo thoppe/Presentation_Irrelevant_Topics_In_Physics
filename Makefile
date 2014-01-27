@@ -1,6 +1,6 @@
 title  = "Irrelevant Topics In Physics"
 author = "Travis Hoppe"
-target = "irr1"
+target = "irr6"
 
 markdown_file = talks/$(target).md
 output_file   = $(target).html
@@ -19,7 +19,7 @@ check:
 	aspell -c -H $(markdown_file)
 
 view:
-	chromium-browser $(output_file)
+	chromium-browser $(output_file) &
 
 commit:
 	@-make push
