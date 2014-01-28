@@ -23,12 +23,12 @@ Random Matrix Theory, Complex Temperatures, & Stochastic Resonance
 Esoteric Programing Languages & Chutes and Ladders
 
 #### [Talk 3](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr3.html)
-Cardinality Of Infinity, Negative Probabilities, Hobomorphism
+Cardinality Of Infinity, Negative Probabilities, & Hobomorphism
 
 #### [Talk 2](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr2.html)
-Extraordinarily Large Numbers, Venn-Diagrams
+Extraordinarily Large Numbers & Venn-Diagrams
 
 #### [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr1.html)
-Dissipative Lagrangians, Supershapes, Random Walks on Regular Lattices
+Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
 
 
