@@ -1,7 +1,7 @@
 Irrelevant Topics In Physics
 ============================
 
-There are eight talks total, but only limited selection are currently online.
+There are eight talks total, but only last five are currently online.
 
 ## [Talk 8](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr8.html)
 Quines, Price of Anarchy, & Zeta Function Regularization
@@ -15,12 +15,12 @@ Cayley-Dickson Process, Pseudospectra, & Markov Cutoff Phenomenon
 #### [Talk 5](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr5.html)
 Random Matrix Theory, Complex Temperatures, & Stochastic Resonance
 
+#### [Talk 4](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr4.html)
+Esoteric Programing Languages & Chutes and Ladders
+
 ============================
 
 **Placeholders for the others talks are below, they may not work or be in an incomplete state.**
-
-#### [Talk 4](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr4.html)
-Esoteric Programing Languages & Chutes and Ladders
 
 #### [Talk 3](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr3.html)
 Cardinality Of Infinity, Negative Probabilities, & Hobomorphism
