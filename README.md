@@ -1,7 +1,7 @@
 Irrelevant Topics In Physics
 ============================
 
-There are eight talks total, but only last five are currently online.
+There are eight talks total, but last two are incomplete.
 
 ## [Talk 8](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr8.html)
 Quines, Price of Anarchy, & Zeta Function Regularization
@@ -18,12 +18,12 @@ Random Matrix Theory, Complex Temperatures, & Stochastic Resonance
 #### [Talk 4](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr4.html)
 Esoteric Programing Languages & Chutes and Ladders
 
+#### [Talk 3](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr3.html)
+Cardinality Of Infinity, Negative Probabilities, & Hobomorphism
+
 ============================
 
 **Placeholders for the others talks are below, they may not work or be in an incomplete state.**
-
-#### [Talk 3](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr3.html)
-Cardinality Of Infinity, Negative Probabilities, & Hobomorphism
 
 #### [Talk 2](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr2.html)
 Extraordinarily Large Numbers & Venn-Diagrams
