@@ -50,94 +50,82 @@ simply higher orders of the same function:
 
 
 ## $ab  = \underbrace{a + a + a + \ldots + a}_{b \text{copies of} a}$
-$a^b = \underbrace{a * a * a * \ldots * a}_{b \text{copies of} a}$
+## $a^b = \underbrace{a * a * a * \ldots * a}_{b \text{copies of} a}$
 
 ====
 
 ### Time to think big
+!(images/2/image7.png) <<height:300px>>
 
-\begin{tabular}{r p{5cm}}
-\multirow{2}{*}
-{\includegraphics[width=.3\textwidth]{images/2/image7.png}}
-& The idea is not to generate the largest number, per se, but rather the largest growing function...\\
-& \\
-& Many different styles: Conway's chained arrow, hyper-geometric, and of course Knuths up-arrow
-\end{tabular}
-\end{frame}
+The idea is not to generate the largest number, 
+per se, but rather the largest growing function...
+
+Many different styles: Conway's chained arrow, 
+hyper-geometric, and of course Knuths up-arrow
 
 ====
 
 ### Knuth's Up Arrow notation
 
-Each arrow starting from exponentiation forms the higher operators
+Each arrow starting from exponentiation 
+forms the higher operators
 
-$a \uparrow b &= \underbrace{a * a * a * \ldots * a}_{\text{$b$ copies of $a$}} \\ &\\ a \uparrow \uparrow b &= \underbrace{a ^ {a^{a^{\ldots}}}}_{\text{$b$ copies of $a$}} = \underbrace{a \uparrow a \uparrow a \uparrow \ldots \uparrow a}_{\text{$b$ copies of $a$}}$
+# $a \uparrow \uparrow b &= \underbrace{a ^ {a^{a^{\ldots}}}}_{b \text{copies of} a} \\ &= \underbrace{a \uparrow a \uparrow a \uparrow \ldots \uparrow a}_{b \text{copies of} a}$
 
-Numerical examples
-
-$3 \uparrow \uparrow 2 &= 3^3 = 27 \\ 3 \uparrow \uparrow 3 &= 3^{3^3} = 7625597484987 \\ 3 \uparrow \uparrow 4 &= 3^{3^{3^3}} = 3^{7625597484987}$
-
-Note that the operator is right-associative
-
-$3 \uparrow \uparrow 3 &= 3^{3^3} = 3^{27} \\ 3 \uparrow \uparrow 3 &\neq (3^3)^3 = 3^9$
+Numerical examples (note that the operator is right-associative):
++ $3 \uparrow \uparrow 2 = 3^3 = 27$
++ $3 \uparrow \uparrow 3 = 3^{3^3} = 7625597484987$
++ $3 \uparrow \uparrow 4 = 3^{3^{3^3}} = 3^{7625597484987}$
++ $3 \uparrow \uparrow 3 \neq (3^3)^3 = 3^9$
 
 ====
 
 ### More arrows!
 
-We can grow larger numbers by simply adding more arrows onto the expression
+We can grow larger numbers by simply 
+adding more arrows onto the expression
 
-$a \uparrow \uparrow \uparrow b &= \underbrace{a \uparrow \uparrow a \uparrow \uparrow a \uparrow \uparrow \ldots \uparrow \uparrow a}_{\text{$b$ copies of $a$}} \\ &\\ a \uparrow^n b &= \underbrace{a \uparrow^{n-1} a \uparrow^{n-1} a \uparrow^{n-1} \ldots \uparrow^{n-1} a }_{\text{$b$ copies of $a$}}$
+# $a \uparrow \uparrow \uparrow b = \underbrace{a \uparrow \uparrow a \uparrow \uparrow a \uparrow \uparrow \ldots \uparrow \uparrow a}_{b \text{copies of} a}$
 
+# $a \uparrow^n b &= \underbrace{a \uparrow^{n-1} a \uparrow^{n-1} a \uparrow^{n-1} \ldots \uparrow^{n-1} a }_{b \text{copies of} a}$
 
 ====
 
 ### Why are big numbers so awesome?
 
-We have primitive brains  
+We have primitive brains. For small numbers we can only think 
+spatially, 4 cows, 3 hens etc... Abstract numerical systems 
+_allow us understand larger quantities._
     
-For small numbers we can only think spatially, 4 cows, 3 hens etc...
-Abstract numerical systems allow us understand larger quantities 
-    
-If you build it... Large numbers systems were invented because of their necessity.
+If you build it... large numbers systems 
+were invented because of their necessity.
 
 ====
 
 ## Grahams number
 
-Grahams number is so big that even Knuths up arrow notation is insufficient to contain it. It is the best known upper-bound to the problem:
+Grahams number is so big that even Knuths up arrow notation 
+is insufficient to contain it. It is the best known 
+upper-bound to the problem:
 
-> Consider an n-dimensional hypercube, and connect each pair of vertices to obtain a complete graph on $2^n$ vertices. Then color each of the edges of this graph using only the colors red and black. What is the smallest value of n for which every possible such coloring must necessarily contain a single-colored complete sub-graph with 4 vertices which lie in a plane?
++ Consider an n-dimensional hypercube, and connect each pair of vertices to obtain a complete graph on $2^n$ vertices. Then color each of the edges of this graph using only the colors red and black. What is the smallest value of n for which every possible such coloring must necessarily contain a single-colored complete sub-graph with 4 vertices which lie in a plane?
 
 ====
 
 ### Grahams number, $G$
 
-$g_1 &= 3 \uparrow \uparrow \uparrow \uparrow 3 \\ g_n &= 3 \uparrow^{g_{n-1}} 3 \\ G &= g_{64}$
+# $g_1 &= 3 \uparrow \uparrow \uparrow \uparrow 3 \\ g_n &= 3 \uparrow^{g_{n-1}} 3 \\ G &= g_{64}$
 
-This is an upper bound to the problem. It has been proven that the lower bound solution is at least 11. The authors (modestly) state that there is some room for improvement.
+This is an upper bound to the problem. It has been proven that the lower bound solution is at least 11. The authors (modestly) state that there is _some room for improvement_.
 
 ==== [VennDiagrams]
 # Venn-diagrams
 ### Inclusion-exclusion principle (extreme)
 ====
 
-### You, at the conclusion of this talk
-
-\centering
-\begin{tikzpicture}
-    \begin{scope}[shift={(0cm,0cm)}, fill opacity=0.6]
-
-        \draw (0,1.75)  circle(2cm) [fill=blue] node[above]
-        {\small Venn Diagrams};
-        \draw (-1.75,0) circle(2cm) [fill=red] node[below]
-        {\small Interesting things};
-        \draw (1.75,0)  circle(2cm) [fill=green] node[below]
-        {\small Your knowledge};
-    \end{scope}
-\end{tikzpicture}
-
-Venn Diagrams! (originally invented by Euler)  
+You, at the conclusion of this talk
+!(images/2/venn2.png)<<transparent>>
+(originally invented by Euler)  
 
 ====
 
@@ -151,25 +139,11 @@ In other words  every subset built from a collection of n objects has to be repr
 ====
 
 ### Venn or not Venn?
+!(images/2/venn3.png)<<transparent>>
 
-\centering
-\begin{tikzpicture}
-    \begin{scope}[shift={(0cm,0cm)}, fill opacity=0.6]
-        \draw (0,0)  circle(1cm) [fill=blue] {} node {$A$};
-        \draw (1.75,0) circle(1cm) [fill=red]  {} node {$B$};
-    \end{scope}
-\end{tikzpicture}
-
-\centering
-\begin{tikzpicture}
-    \begin{scope}[shift={(0cm,0cm)}, fill opacity=0.6]
-        \draw (0,0)  circle(1cm) [fill=blue] {} node {$A$};
-        \draw (1.33,0) circle(1cm) [fill=red]  {} node {$B$};
-        \draw (2.66,0) circle(1cm) [fill=green]  {} node {$C$};
-    \end{scope}
-\end{tikzpicture}
-
-Not Venn as $A \cup C$ is not represented. Still known as an Euler diagram.
+!(images/2/venn4.png)<<transparent>>
+Not Venn as $A \cup C$ is not represented. 
+Still known as an Euler diagram.
 
 ====
 
