@@ -11,45 +11,44 @@
 ## Topics:
 
 ### [Extraordinarily Large Numbers](#/ExtraordinarilyLargeNumbers)
-_x_
+_Mathematical Notation_
 
 ### [Venn-Diagrams](#/VennDiagrams)
-_x_
+_Logic, Set Theory_
 
 ==== [ExtraordinarilyLargeNumbers]
 
 # Extraordinarily Large Numbers
 ### they're just big boned
 
-====
+====*
 
-## Really really big numbers
-
-First a contest!
+## First a contest!
     
 + Write the largest number you can think of on the note card.
 + Use standard mathematical functions or define your own. 
-+ The number must be verifiability finite and computable.
 + The number must be completely defined on the card.
++ The number must be verifiability *finite* and *computable*.
     
 ====
 
 ### Progression of expression
 
-+ First-grader   $10000000000$
-+ Third-grader   $99999999999$
-+ Sixth-grader   $9^{9999999}$
-+ Twelfth-grader $9^{9^{9^{9^{9^{9^9}}}}}$
++ First-grader:   $10000000000$
++ Third-grader:   $99999999999$
++ Sixth-grader:   $9^{9999999}$
++ Twelfth-grader: 
 
-====
+## $9^{9^{9^{9^{9^{9^9}}}}}$
 
-### What's next?
+_What's next?_
+
+====*
 
 Addition, multiplication and exponentiation are 
 simply higher orders of the same function:
 
-
-## $ab  = \underbrace{a + a + a + \ldots + a}_{b \text{copies of} a}$
+## $ab  = \underset{b\ \text{copies of}\ a}{a + a + a + \ldots + a}$
 ## $a^b = \underbrace{a * a * a * \ldots * a}_{b \text{copies of} a}$
 
 ====
@@ -155,32 +154,33 @@ Constructing graphs allows different Venn diagrams of the same order to be compa
 
 ====
 
-### Special Venn Diagrams: Minimum
-
+#### Special Venn Diagrams: Minimum
 Number of vertices in the graph is no more than:
-$v = \left \lceil \frac{2^n -2}{n-1} \right \rceil$
 
-!(images/2/image20.png)    
-!(images/2/image23.png)
+## $v = \left \lceil \frac{2^n -2}{n-1} \right \rceil$
 
-### Special Venn Diagrams: Symmetric
+!(images/2/image20.png)  <<height:300px>>
+!(images/2/image23.png)  <<height:300px>>
+
+====*
+
+#### Special Venn Diagrams: Symmetric
   
 Must display $n$-fold symmetry. 
-Can be shown that these only exist when n is prime
+Can be shown that these only exist when n is prime.
   
-!(images/2/image22.png)
-!(images/2/image23.png)    
+!(images/2/image22.png) <<height:350px>>
+!(images/2/image23.png) <<height:350px>>   
 
 ====
 
-### Large Venns
-
+#### Large Venns: Seven region Venn
 !(images/2/image24.png)
-!(images/2/image26.png)
 
 ====
 
-### Large Venns
-
-!(images/2/image25.png)
+#### Large Venns: Seven region Venn
+Ugly, but formulaic way to create higher orders
+!(images/2/image26.png) <<height:350px>>
+!(images/2/image25.png) <<height:350px>>
 
