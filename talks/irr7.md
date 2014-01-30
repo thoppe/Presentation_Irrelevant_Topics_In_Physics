@@ -214,7 +214,7 @@ We must understand two things first:
 
 | A *Universal Turing machine* (UTM) can emulate any other UTM.
 
-| A language is *Turing complete* if it is a UTM (eg. python, ruby, C++, etc)
+| A language is *Turing complete* if it is a UTM (e.g. python, ruby, C++, etc)
 
 | A number is *computable* if you can write a _finite_ piece of code to compute any specified digit.
 
@@ -234,7 +234,7 @@ How do you compare sets?
 ## $A = \braces{2, 7, 13}$
 ## $B = \braces{x, y, z}$
 
-We get that $\abs{A}=\abs{B}=3$. How can we do that if we can't count them? We say that two sets have the same *cardinality*, $\abs{A}=\abs{B}$, if we can find a bijection (ie a mapping from one to another)
+We get that $\abs{A}=\abs{B}=3$. How can we do that if we can't count them? We say that two sets have the same *cardinality*, $\abs{A}=\abs{B}$, if we can find a bijection (i.e. a mapping from one to another)
 
 ## $7 \rightarrow z, 2 \rightarrow y, 13 \rightarrow x$
 

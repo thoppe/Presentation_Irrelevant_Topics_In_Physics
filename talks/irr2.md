@@ -28,7 +28,7 @@ _Logic, Set Theory_
 + Write the largest number you can think of on the note card.
 + Use standard mathematical functions or define your own. 
 + The number must be completely defined on the card.
-+ The number must be verifiability *finite* and *computable*.
++ The number must be verifiably *finite* and *computable*.
     
 ====
 

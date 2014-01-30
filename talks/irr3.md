@@ -151,9 +151,9 @@ _What's left?_
 
 ====
 
-### Feynmans Roulette
+### Feynman's Roulette
 
-Consider a concrete example of a strange roulette wheel. The table is known to have three obserable states, $1,2,3$ and two internal (non-obserable states) $A,B$ with stochastic probability of comming up:
+Consider a concrete example of a strange roulette wheel. The table is known to have three observable states, $1,2,3$ and two internal (non-observable states) $A,B$ with stochastic probability of coming up:
 
     	A(.7)  B(.3)
 	----------------

@@ -10,14 +10,14 @@
 ====*
 ## Topics:
 
-### [Esoteric Programing Languages](#/EsotericProgramingLanguages)
+### [Esoteric Programming Languages](#/EsotericProgrammingLanguages)
 _Computer Science_
 
 ### [ChutesAndLadders](#/ChutesAndLadders)
 _Board Games, Physics_
 
-==== [EsotericProgramingLanguages]
-# Esoteric programing languages
+==== [EsotericProgrammingLanguages]
+# Esoteric programming languages
 ### Not your grandpa's Turing machine
 ====*
 
@@ -71,7 +71,7 @@ Once a language can be shown to be similar to the tape-machine it is identical f
 + Extension of one-dimensional Turing tape machine.
 + Live in metric spaces with coordinate systems.  
 + Usually Cartesian, but not necessarily. 
-+ Considered a "funges" if topology is toroidal.
++ Considered a "funge" if topology is toroidal.
 + More exotic topologies are classified as fungeoids.
 
 ====
@@ -105,7 +105,7 @@ Hello World
     -]>++.>+.+++++++..+++.>++.<<+++++++++++++++
     .>.+++.------.--------.>+.>.
 
-<div class="footnote">The first line initialises a[0] = 10 by simply incrementing ten times from 0. The loop from line 2 effectively sets the initial values for the array: a[1] = 70 (close to 72, the ASCII code for the character 'H'), a[2] = 100 (close to 101 or 'e'), a[3] = 30 (close to 32, the code for space) and a[4] = 10 (newline). The loop works by multiplying the value of a[0], 10, by 7, 10, 3, and 1, saving the results in other cells. After the loop is finished, a[0] is zero. >++. then moves the pointer to a[1] which holds 70, adds two to it (producing 72 which is the ASCII character code of a capital H), and outputs it.<div>
+<div class="footnote">The first line initializes a[0] = 10 by simply incrementing ten times from 0. The loop from line 2 effectively sets the initial values for the array: a[1] = 70 (close to 72, the ASCII code for the character 'H'), a[2] = 100 (close to 101 or 'e'), a[3] = 30 (close to 32, the code for space) and a[4] = 10 (newline). The loop works by multiplying the value of a[0], 10, by 7, 10, 3, and 1, saving the results in other cells. After the loop is finished, a[0] is zero. >++. then moves the pointer to a[1] which holds 70, adds two to it (producing 72 which is the ASCII character code of a capital H), and outputs it.<div>
 
 ====
 
