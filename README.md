@@ -14,7 +14,7 @@ Cayley-Dickson Process, Pseudospectra, & Markov Cutoff Phenomenon
 Random Matrix Theory, Complex Temperatures, & Stochastic Resonance
 
 ## [Talk 4](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr4.html)
-Esoteric Programing Languages & Chutes and Ladders
+Esoteric Programming Languages & Chutes and Ladders
 
 ## [Talk 3](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr3.html)
 Cardinality Of Infinity, Negative Probabilities, & Hobomorphism
