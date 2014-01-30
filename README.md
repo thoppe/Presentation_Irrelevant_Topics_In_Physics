@@ -1,8 +1,6 @@
 Irrelevant Topics In Physics
 ============================
 
-There are eight talks total, but last one is incomplete.
-
 ## [Talk 8](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr8.html)
 Quines, Price of Anarchy, & Zeta Function Regularization
 
@@ -24,11 +22,7 @@ Cardinality Of Infinity, Negative Probabilities, & Hobomorphism
 ## [Talk 2](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr2.html)
 Extraordinarily Large Numbers & Venn-Diagrams
 
-============================
-
-**Placeholders for the others talks are below, they may not work or be in an incomplete state.**
-
-#### [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr1.html)
+## [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr1.html)
 Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
 
 
