@@ -7,10 +7,11 @@ output_file   = $(target).html
 
 python_exec    = python
 md2reveal_exec = md2reveal/md2reveal.py
+cmd_exec = $(python_exec) $(md2reveal_exec)
 
-args = --html_title $(title) --html_author $(author) --output $(output_file)
+args = --html_title $(title) --html_author $(author) 
 all:
-	$(python_exec) $(md2reveal_exec) $(markdown_file) $(args)
+	$(cmd_exec) $(markdown_file) $(args)
 
 edit:
 	emacs $(markdown_file) &
@@ -21,11 +22,19 @@ check:
 view:
 	chromium-browser $(output_file) &
 
-commit:
-	@-make push
-
 clean:
 	rm -rvf *.html
+
+all_talks = $(wildcard talks/irr*.md)
+build_all:
+	$(foreach d,$(all_talks),$(cmd_exec) $(d) $(args);)
+
+#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
+# Git helper functions
+#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
+
+commit:
+	@-make push
 
 push:
 	git status
