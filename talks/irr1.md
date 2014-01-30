@@ -105,7 +105,7 @@ A random walk on a lattice takes an integer step with
 *equal probability* in one of the possible directions.
 
 A walk is *recurrent*, if the probability of returning to the 
-starting point approches one as the number of steps go to infinity.
+starting point approaches one as the number of steps go to infinity.
 
 
 ====
