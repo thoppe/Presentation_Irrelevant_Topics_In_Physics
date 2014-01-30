@@ -249,7 +249,7 @@ Common fields
 + $\mathbb{R}$ Real numbers
 <br>
 
-This works for infinite sets as well (see Irr. Top. in Phys. 3). 
+This works for infinite sets as well (see [Irr. Topics 3](irr3.html#/CardinalityOfInfinity)). 
 Think about $\mathbb{W}$ vs $\mathbb{N}$.
 
 ### $1:1, 2:-1, 3:2, 4:-2, $...
