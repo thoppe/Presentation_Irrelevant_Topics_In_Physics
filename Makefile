@@ -29,6 +29,9 @@ all_talks = $(wildcard talks/irr*.md)
 build_all:
 	$(foreach d,$(all_talks),$(cmd_exec) $(d) $(args);)
 
+check_all:
+	$(foreach d,$(all_talks),aspell -c -H $(d);)
+
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
 # Git helper functions
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
