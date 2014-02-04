@@ -4,7 +4,7 @@
 ### [Maximum Caliber](http://rmp.aps.org/abstract/RMP/v85/i3/p1115_1): Variational stat mechanics trajectory.
 ### Thermodynamic length
 ### Wave propagation through chaotic media
-### Experimental mathematics: arbitrary. $\pi$ [OEIS](http://oeis.org/) and [PSLQ](http://en.wikipedia.org/wiki/PSLQ_algorithm)
+### Experimental mathematics: [OEIS](http://oeis.org/) and [PSLQ](http://en.wikipedia.org/wiki/PSLQ_algorithm), arbitrary pi
 ### Multi-fractals
 ### Quantum walks on graphs and discrete Green's functions
 ### Discrete Noether's theorem
@@ -26,7 +26,7 @@
 ### Group theory applications
 ### Directional statistics
 ### [Non-circular manholes](http://math.stackexchange.com/questions/176659/are-non-circular-manholes-possible)
-### [Tusi-couples](http://en.wikipedia.org/wiki/Tusi-couple_
+### [Tusi-couples](http://en.wikipedia.org/wiki/Tusi-couple)
 ### [Lychrel numbers](http://en.wikipedia.org/wiki/Lychrel_number)
 ### [German tank problem](https://en.wikipedia.org/wiki/German_tank_problem)
 
@@ -62,7 +62,7 @@
 # Biology
 ### Urea based life
 ### Life in Life, [OCTA Metapixel](http://www.conwaylife.com/wiki/OTCA_metapixel)
-### [Smooth Life](http://www.youtube.com/watch?v=KJe9H6qS82I) [source](http://sourceforge.net/projects/smoothlife/), [paper](http://arxiv.org/abs/1111.1567)
+### Smooth Life [video](http://www.youtube.com/watch?v=KJe9H6qS82I), [source](http://sourceforge.net/projects/smoothlife/), [paper](http://arxiv.org/abs/1111.1567)
 
 
 # Hacking
