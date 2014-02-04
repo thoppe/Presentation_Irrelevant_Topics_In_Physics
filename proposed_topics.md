@@ -60,7 +60,7 @@
 ### Turing complete card/board games: [Magic TG](http://www.toothycat.net/~hologram/Turing/HowItWorks.html)
 ### [Reverse Engineering Machines with the Yoneda Lemma](http://blog.sigfpe.com/2006/11/yoneda-lemma.html)
 ### [High-dimensions yields combinatorial structure](http://en.wikipedia.org/wiki/Hales%E2%80%93Jewett_theorem)
-### (Bad power series)[http://en.wikipedia.org/wiki/Lacunary_function] (converges nowhere outside) 
+### Bad power series: [Lacunary functions](http://en.wikipedia.org/wiki/Lacunary_function), converges nowhere outside
 
 # Lanuage
 ### [Anguish Languish](http://en.wikipedia.org/wiki/Anguish_Languish), [story](http://www.crockford.com/wrrrld/anguish.html)
