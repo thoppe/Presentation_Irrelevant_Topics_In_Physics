@@ -25,4 +25,6 @@ Extraordinarily Large Numbers & Venn-Diagrams
 ## [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr1.html)
 Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
 
+============================
+[Proposed Topics](proposed_topics.md)
 
