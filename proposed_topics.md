@@ -1,14 +1,14 @@
 # Physics
-### Liouvillian expansion for stochastic systems
-### [Dimensional analysis](http://en.wikipedia.org/wiki/Dimensional_analysis), [Buckingham's pi-theorem](http://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
-### [Maximum Caliber](http://rmp.aps.org/abstract/RMP/v85/i3/p1115_1): Variational stat mechanics trajectory.
-### Thermodynamic length
-### Wave propagation through chaotic media
-### Experimental mathematics: [OEIS](http://oeis.org/) and [PSLQ](http://en.wikipedia.org/wiki/PSLQ_algorithm), arbitrary pi, [RIES](http://mrob.com/pub/ries/index.html)
-### Multi-fractals
-### Quantum walks on graphs and discrete Green's functions
-### Discrete Noether's theorem
-### Discrete Laplacian operator
++ Liouvillian expansion for stochastic systems
++ [Dimensional analysis](http://en.wikipedia.org/wiki/Dimensional_analysis), [Buckingham's pi-theorem](http://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
++ [Maximum Caliber](http://rmp.aps.org/abstract/RMP/v85/i3/p1115_1): Variational stat mechanics trajectory.
++ Thermodynamic length
++ Wave propagation through chaotic media
++ Experimental mathematics: [OEIS](http://oeis.org/) and [PSLQ](http://en.wikipedia.org/wiki/PSLQ_algorithm), arbitrary pi, [RIES](http://mrob.com/pub/ries/index.html)
++ Multi-fractals
++ Quantum walks on graphs and discrete Green's functions
++ Discrete Noether's theorem
++ Discrete Laplacian operator
 
 # Logic/Math
 ### [Supertasks](http://plato.stanford.edu/entries/spacetime-supertasks/], (2)[http://en.wikipedia.org/wiki/Supertask)
