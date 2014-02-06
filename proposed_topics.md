@@ -1,5 +1,4 @@
-# Irrelevant Topics in ...
-## proposed topics
+# (proposed) Irrelevant Topics in ...
 
 ## Physics
 + Liouvillian expansion for stochastic systems
@@ -78,6 +77,6 @@
 
 ## Hacking
 + [Homograph attacks](http://en.wikipedia.org/wiki/IDN_homograph_attack)
-
++ [Acoustic Cryptanalysis](http://www.cs.tau.ac.il/~tromer/acoustic/)
 
 
