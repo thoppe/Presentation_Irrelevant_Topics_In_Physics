@@ -18,6 +18,7 @@
 
 ## Game theory
 + [Cake cutting](https://en.wikipedia.org/wiki/Envy-free), envy free
++ [Quantum Game theory](http://en.wikipedia.org/wiki/Quantum_game_theory)
 
 ## Mathematics
 + [Buddhabrot](http://en.wikipedia.org/wiki/Buddhabrot)
@@ -50,6 +51,7 @@
 ## General Science
 + Power-law abundance in natural science, and black-swans
 + Feynman estimates
++ Metric time (pongs)
 
 ## Board Games
 + [Singularity Chess](http://abstractstrategygames.blogspot.co.uk/2010/10/singularity-chess.html)
@@ -64,16 +66,16 @@
 + [High-dimensions yields combinatorial structure](http://en.wikipedia.org/wiki/Hales%E2%80%93Jewett_theorem)
 + Bad power series: [Lacunary functions](http://en.wikipedia.org/wiki/Lacunary_function), converges nowhere outside
 
-## Lanuage
+## Language
 + [Anguish Languish](http://en.wikipedia.org/wiki/Anguish_Languish), [story](http://www.crockford.com/wrrrld/anguish.html)
 + [Phrase structure rules](http://en.wikipedia.org/wiki/Phrase_structure_rules): [infinte sentences](http://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo) and [word salads](http://en.wikipedia.org/wiki/Colorless_green_ideas_sleep_furiously)
 + [Dotsies](http://dotsies.org/): Optimized print
 
 ## Biology
++ Physiology of monsters (vampires, zombies, etc...)
 + Urea based life
 + Life in Life, [OCTA Metapixel](http://www.conwaylife.com/wiki/OTCA_metapixel)
 + Smooth Life [video](http://www.youtube.com/watch?v=KJe9H6qS82I), [source](http://sourceforge.net/projects/smoothlife/), [paper](http://arxiv.org/abs/1111.1567)
-
 
 ## Hacking
 + [Homograph attacks](http://en.wikipedia.org/wiki/IDN_homograph_attack)
