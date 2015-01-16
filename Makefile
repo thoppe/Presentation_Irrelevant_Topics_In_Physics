@@ -1,6 +1,6 @@
 title  = "Irrelevant Topics In Physics"
 author = "Travis Hoppe"
-target = "irr1"
+target = "irr6"
 
 markdown_file = talks/$(target).md
 output_file   = $(target).html

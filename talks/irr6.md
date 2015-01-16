@@ -69,9 +69,7 @@ $i j k = -1$
 
 _The quaternions are non commutative:_ $p q \ne  q p$
 
-====*
-
-!(images/6/qu_plaque2.jpg)<<height:400px>>
+====* !(images/6/qu_plaque2.jpg)
 
 ====
 
