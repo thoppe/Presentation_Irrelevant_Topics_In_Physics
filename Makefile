@@ -13,6 +13,17 @@ args = --html_title $(title) --html_author $(author)
 all:
 	$(cmd_exec) $(markdown_file) $(args)
 
+all_presentations:
+	$(cmd_exec) talks/irr1.md $(args)
+	$(cmd_exec) talks/irr2.md $(args)
+	$(cmd_exec) talks/irr3.md $(args)
+	$(cmd_exec) talks/irr4.md $(args)
+	$(cmd_exec) talks/irr5.md $(args)
+	$(cmd_exec) talks/irr6.md $(args)
+	$(cmd_exec) talks/irr7.md $(args)
+	$(cmd_exec) talks/irr8.md $(args)
+
+
 edit:
 	emacs $(markdown_file) &
 
