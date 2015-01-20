@@ -1,4 +1,3 @@
-{"theme":"night.css"}
 ## Irrelevant Topics III
 ### in Physics
 
