@@ -1,6 +1,6 @@
 title  = "Irrelevant Topics In Physics"
 author = "Travis Hoppe"
-target = "irr6"
+target = "_irr6"
 
 markdown_file = talks/$(target).md
 output_file   = $(target).html
@@ -14,14 +14,14 @@ all:
 	$(cmd_exec) $(markdown_file) $(args)
 
 all_presentations:
-	$(cmd_exec) talks/irr1.md $(args)
-	$(cmd_exec) talks/irr2.md $(args)
-	$(cmd_exec) talks/irr3.md $(args)
-	$(cmd_exec) talks/irr4.md $(args)
-	$(cmd_exec) talks/irr5.md $(args)
-	$(cmd_exec) talks/irr6.md $(args)
-	$(cmd_exec) talks/irr7.md $(args)
-	$(cmd_exec) talks/irr8.md $(args)
+	$(cmd_exec) talks/_irr1.md $(args)
+	$(cmd_exec) talks/_irr2.md $(args)
+	$(cmd_exec) talks/_irr3.md $(args)
+	$(cmd_exec) talks/_irr4.md $(args)
+	$(cmd_exec) talks/_irr5.md $(args)
+	$(cmd_exec) talks/_irr6.md $(args)
+	$(cmd_exec) talks/_irr7.md $(args)
+	$(cmd_exec) talks/_irr8.md $(args)
 
 
 edit:
@@ -36,7 +36,7 @@ view:
 clean:
 	rm -rvf *.html
 
-all_talks = $(wildcard talks/irr*.md)
+all_talks = $(wildcard talks/_irr*.md)
 build_all:
 	$(foreach d,$(all_talks),$(cmd_exec) $(d) $(args);)
 
