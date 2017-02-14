@@ -31,5 +31,5 @@ Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
 
 ## miniprez talks (in progress!)
 
-### [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/IrrTalk1.html)
+### [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/Irr1.html)
 Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
