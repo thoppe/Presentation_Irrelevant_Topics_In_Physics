@@ -1,28 +1,28 @@
 Irrelevant Topics In Physics
 ============================
 
-### [Talk 8](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr8.html)
+### [Talk 8](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr8.html)
 Quines, Price of Anarchy, & Zeta Function Regularization
 
-### [Talk 7](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr7.html)
+### [Talk 7](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr7.html)
 Benford's Law, Negative Specific Heat, & Real Computability
 
-### [Talk 6](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr6.html)
+### [Talk 6](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr6.html)
 Cayley-Dickson Process, Pseudospectra, & Markov Cutoff Phenomenon
 
-### [Talk 5](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr5.html)
+### [Talk 5](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr5.html)
 Random Matrix Theory, Complex Temperatures, & Stochastic Resonance
 
-### [Talk 4](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr4.html)
+### [Talk 4](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr4.html)
 Esoteric Programming Languages & Chutes and Ladders
 
-### [Talk 3](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr3.html)
+### [Talk 3](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr3.html)
 Cardinality Of Infinity, Negative Probabilities, & Hobomorphism
 
-### [Talk 2](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr2.html)
+### [Talk 2](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr2.html)
 Extraordinarily Large Numbers & Venn-Diagrams
 
-### [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/irr1.html)
+### [Talk 1](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/irr1.html)
 Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
 
 ============================
@@ -31,5 +31,5 @@ Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
 
 ## miniprez talks (in progress!)
 
-### [Talk 1](http://thoppe.github.io/Irrelevant_Topics_In_Physics/Irr1.html)
+### [Talk 1](http://thoppe.github.io/Presentation_Irrelevant_Topics_In_Physics/IrrTopics1.html)
 Dissipative Lagrangians, Supershapes, & Random Walks on Regular Lattices
