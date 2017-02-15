@@ -389,6 +389,146 @@
    </h3>
   </p>
  </div>
+</section><section class="bg-black slide" id="slide-number-11">
+ <h1>
+  <text>
+   Random Walks on Regular Lattices
+  </text>
+ </h1>
+ <h3>
+  <text>
+   or the best dimension to get drunk
+  </text>
+ </h3>
+</section><section class="wrap slide" id="slide-number-12">
+ <h4>
+  <p>
+   <text>
+    A random walk on a lattice takes an integer step with
+    <strong style="color:#c23">
+     equal probability
+    </strong>
+    in one of the possible directions.
+   </text>
+  </p>
+  <p>
+   <text>
+    A walk is
+    <strong style="color:#c23">
+     recurrent
+    </strong>
+    if the probability of returning to the starting point approaches one as the number of steps go to infinity.
+   </text>
+  </p>
+ </h4>
+</section><section class="slide" id="slide-number-13">
+ <h3>
+  <text>
+   One-Dimension
+  </text>
+ </h3>
+ <p>
+  <text>
+   Let
+   <div class="equation" data-expr="p_{ij}^n">
+   </div>
+   be the number of possible ways from starting at i and ending at j in exactly n moves.
+  </text>
+  <text>
+   From the binomial theorem:
+  </text>
+  <text>
+   <div class="equation" data-expr="p_{00}^{(2n+1)} = 0; p_{00}^{(2n)} = {2n \choose n} p^n q^n">
+   </div>
+  </text>
+ </p>
+ <p>
+  <text>
+   With some approximations:
+   <text>
+    <div class="equation" data-expr="n! \approx \sqrt{2\pi n}(n/e)^n  \ \text{as}\  n \rightarrow \infty">
+    </div>
+   </text>
+   <text>
+    <div class="equation" data-expr="\frac{(4pq)^n}{A \sqrt{n/2}} \propto \frac{1}{2 A\sqrt{n}}">
+    </div>
+   </text>
+  </text>
+ </p>
+ <text>
+  <div class="equation" data-expr="\sum_{n=N}^{\infty} p_{00}^{(2n)} \ge \frac{1}{2 A\sqrt{n}} \sum_{n=N}^{\infty} \frac{1}{\sqrt{n}} = \infty">
+  </div>
+ </text>
+ <text>
+  Thus a random walk is recurrent in 1D.
+ </text>
+</section><section class="slide" id="slide-number-14">
+ <h3>
+  <text>
+   Two-Dimensions
+  </text>
+ </h3>
+ <figure>
+  <img src="images/1/image38.png" style=""/>
+ </figure>
+ <text>
+  Xn+ and Xn- are simple symmetric independent random walks.
+ </text>
+ <figure>
+  <img src="images/1/image39.png" style=""/>
+ </figure>
+ <h2>
+  <text>
+   <div class="equation" data-expr="\sum_{n=0}^\infty p_{00}^{2n} = \infty; \text{since} \sum 1/n = \infty">
+   </div>
+  </text>
+ </h2>
+ <text>
+  Thus a random walk is recurrent in 2D
+ </text>
+</section><section class="slide" id="slide-number-15">
+ <h3>
+  <text>
+   Three-Dimensions
+  </text>
+ </h3>
+ <h2>
+  <text>
+   <div class="equation" data-expr="p_{00}^{2n} \le {2n \choose n} {\paren{\frac{1}{2}}^{2n}} {n \choose m^3}  {\paren{\frac{1}{3}}^{n}} \approx \frac{1}{2A^3} \paren{\frac{6}{n}}^{3/2}">
+   </div>
+  </text>
+ </h2>
+ <h2>
+  <text>
+   <div class="equation" data-expr="\sum_{n=0}^\infty p_{00}^{6m} &lt; \infty \hspace{2em} \text{since} \hspace{2em} \sum n^{-3/2} &lt; \infty">
+   </div>
+  </text>
+ </h2>
+ <text>
+  Thus a random walk in 3D is
+  <strong style="color:#c23">
+   not recurrent
+  </strong>
+  !
+ </text>
+</section><section class="slide" id="slide-number-16">
+ <h1>
+  <text>
+   <em>
+    Do not get drunk in 3D!
+   </em>
+  </text>
+ </h1>
+ <p>
+  <text>
+   If you lose your keys in space, odds are you will never find them again...
+  </text>
+ </p>
+ <p>
+  <text>
+   Thankfully, Earth has a 2D periodic surface!
+  </text>
+ </p>
 </section>
    </article>
   </main>
