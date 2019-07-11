@@ -84,7 +84,7 @@ Do all infinite sets have the same cardinality?
 ====+
 <br>
 ## *NO!* 
-There are _more reals_ then _rationals!_
+There are _more reals_ than _rationals!_
 
 ## $\abs{\mathbb{Q}} < \abs{\mathbb{R}} = 2 ^ {\aleph_0} =^? \aleph_1$
 
@@ -125,7 +125,7 @@ what about the multiset of multisets...?
 
 ### What is the cardinality of reality?
 
-Sets of higher order then the real numbers 
+Sets of higher order than the real numbers 
 have never found use in physics.
 
 However, the language of quantum mechanics uses 
